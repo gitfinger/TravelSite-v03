@@ -131,14 +131,18 @@ margin-top: 3%;
 .splash {
   text-align: left;
   background: url(../img/bk02.jpg) $white;
-  padding-top: 100px;
+  padding-top: 10px;
   height: auto;
   
   @include bk-splash;
 
-  
-//	text-shadow: 1px 1px 6px rgba(0,0,0,0.15);
-	
+   @include mq(medium) {
+	 
+  	padding-top: 100px;
+ 
+    } 
+
+ 	
  }
 
 
@@ -236,7 +240,7 @@ padding-top: 80px;
   text-align: center;
   background: url(../img/header-01a.jpg) $white;
   padding: 30px 0;
-  //height: auto;
+
   h1, h2 { 
   color: $white;
   }
@@ -292,7 +296,7 @@ padding-top: 0px;
 
 .hashtag {
 		
-		margin: 80px 0 0px 0;
+		margin: 20px 0 0px 0;
 		
 		@include mq(medium) {
 		margin: 120px 0 0px 0;

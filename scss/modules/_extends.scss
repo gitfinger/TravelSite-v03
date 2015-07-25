@@ -100,36 +100,9 @@
 
 %hdln-prim {
 
-// NEW CODE ---CHECK THIS IS DRY---
-  //  color: palette(grey, x-dark);
-  //font-weight: $font-weight--light;
-  //font-size: em(42px);
-  font-size: em(42px);
-  font-weight: $font-weight--light;
-  margin: 0;
-
-
-  @include mq(medium) {
-    font-size: em(72px);
-    font-weight: $font-weight--thin
-  }
-// NEW CODE ---CHECK THIS IS DRY---
-
-  line-height: (46px/42px);
-  margin-top: 0;
-}
-
-
-
-
-
-
-
-%hdln-sec {
-//  color: palette(grey, dark);
-//  color: $white;
   letter-spacing: normal;
   font-weight: $font-weight--ultra-bold;
+  font-family: $font-family--primary;
   font-size: em(20px);
   line-height: (30px/20px);
   margin-top: em(4px);
@@ -139,10 +112,26 @@
   line-height: (36px/24px);
  }
 
-// NEW CODE ---CHECK THIS IS DRY---
-//  font-family: $font-family--secondary;
-  font-family: $font-family--primary;
-// NEW CODE ---CHECK THIS IS DRY---
+}
+
+
+
+
+
+
+
+%hdln-sec {
+
+
+  font-size: em(42px);
+  font-weight: $font-weight--light;
+  margin: 0;
+  line-height: (46px/42px);
+  @include mq(medium) {
+    font-size: em(72px);
+    font-weight: $font-weight--thin
+  }
+
 
 }
 
