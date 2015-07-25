@@ -1,0 +1,62 @@
+// ==========================================================================
+// Images
+// ==========================================================================
+
+.img {
+	@include m(wrap) {
+		border: 1px solid palette(grey, x-light);
+		padding: em(12px);
+	}
+//	@include m(article) {
+//		display: block;
+//		margin-left: auto;
+//		margin-right: auto;
+//		border-radius: $br--round;
+//		@include mq(medium) {
+//			margin-top: em(24px);
+//		}
+//	}
+
+	@include m(article) {
+		
+		margin-top: em(5px);
+		margin-bottom: em(5px);
+		@include mq(medium) {
+			margin-top: em(20px);
+			margin-bottom: em(30px);
+		}
+	}
+	@include m(summary) {
+		margin-top: em(10px);
+		margin-bottom: em(0px);
+//		display: block;
+//		margin-left: auto;
+//		margin-right: auto;
+//		border-radius: $br--round;
+		@include mq(medium) {
+			margin-top: em(40px);
+			margin-bottom: em(0px);
+		}
+	}
+	@include m(header) {
+			margin-top: em(5px);
+			margin-bottom: em(5px);
+
+		@include mq(medium) {
+			margin-top: em(40px);
+			margin-bottom: em(20px);
+		}
+	}
+
+	@include m(profilepic) {
+			margin-top: em(15px);
+			margin-bottom: em(20px);
+			text-align: center;
+
+		@include mq(medium) {
+			margin-top: em(20px);
+			margin-bottom: em(40px);
+		}
+	}
+}
+

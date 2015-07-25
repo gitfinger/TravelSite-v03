@@ -1,0 +1,351 @@
+// ==========================================================================
+// Base Styles
+// ==========================================================================
+
+* {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+
+// ---CHECK HEADER IS DRY---
+// NEW CODE ---CHECK THIS IS DRY---
+
+html, body {
+	height: 100%;
+}
+
+// ---CHECK HEADER IS DRY---
+// NEW CODE ---CHECK THIS IS DRY---
+
+
+
+body {
+	color: palette(grey, xx-dark);
+
+  	font-size: $base__font-size;
+  	font-family: $font-family--primary;
+  	line-height: ($base__line/$base__font-size);
+}
+
+
+// ---CHECK HEADER IS DRY---
+// NEW CODE ---CHECK THIS IS DRY---
+header {
+	position: fixed;
+//	top: 0;
+	z-index: 1;
+	width: 100%;
+	background: rgb(245, 245, 245); /* Fallback */
+	background-color: rgba(255,255,255,0.90);
+	// background-color: palette(grey, xx-light);
+box-shadow: 0px 2px 3px $color-shadow;
+
+//@include mq(medium) {
+//		position: fixed;
+//		background-color: rgba(255,255,255,0.94);
+//
+//	}
+}
+
+
+
+
+
+	
+
+
+
+
+
+
+// NEW CODE ---CHECK THIS IS DRY---
+
+.full {
+	height: 100%;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+
+// NEW CODE ---CHECK THIS IS DRY---
+
+
+
+
+
+
+
+
+
+// Text
+
+h1 {
+	@extend %hdln-prim;
+}
+
+h2 {
+	@extend %hdln-sec;
+
+}
+
+// NEW CODE ---TRY TO MERGE---
+.h2-landing {
+		margin-top: em(20px);
+  		margin-bottom: em(20px);
+	}
+// NEW CODE ---TRY TO MERGE---
+
+// NEW CODE ---TRY TO MERGE---
+.h2-landing-02 {
+		margin-top: em(10px);
+  		margin-bottom: em(10px);
+	}
+// NEW CODE ---TRY TO MERGE---
+
+
+
+h3 {
+
+	@extend %hdln-ter;
+}
+
+
+h4 {
+	margin: em(10px) 0 ;
+	font-weight: $font-weight--bold;
+	font-size: em(18px);
+	color: $color-dark;
+
+		@include mq(medium) {
+		margin-top: em(0px);
+		font-size: em(24px);
+	}
+	
+
+	
+	
+}
+
+
+
+h5 {
+
+	margin-top: em(12px);
+	margin-bottom: em(5px);
+	letter-spacing: $letter-space;
+	font-weight: $font-weight--medium;
+	font-size: em(32px);
+  	line-height: em(36px, 32px);
+	@include mq(medium) {
+		margin-top: em(4px);
+	}
+}
+
+
+h6 {
+
+
+	letter-spacing: $letter-space;
+	font-weight: $font-weight--medium;
+	font-size: em(18px);
+
+	@include mq(medium) {
+		margin-top: em(4px);
+	}
+}
+
+ 
+
+a {
+	color: palette(grey, dark); 
+	//color: #0000cc;
+	text-decoration: none;
+	border-bottom: 1px $color-dark dotted;
+	font-weight: $font-weight--bold;
+	&:hover {
+	color: $color-dark;
+	//text-decoration: underline;
+	border-bottom: none;
+
+
+
+	}
+
+
+}
+
+
+// THIS ISN'T WORKING! NEED TO REMOVE BORDER BOTTOM FROM SOCIAL ICONS
+a.img-mouseover {
+	border-bottom: none;
+}
+// THIS ISN'T WORKING! NEED TO REMOVE BORDER BOTTOM FROM SOCIAL ICONS
+
+
+
+p {
+//		color: $color-light;
+	margin: em(10px) 0 em(20px) 0;
+	font-weight: $font-weight--medium;
+	font-size: em(16px);
+	line-height: (28px/16px);
+	 @include mq(medium) {
+		font-weight: $font-weight--light;
+	 	font-size: em(22px);
+		line-height: (33px/22px);
+	 }
+}
+
+blockquote {
+	@include mq(medium) {
+		margin: em(32px, 24px) 0;
+		padding: 0 0 0 5%;
+		border-left: em(8px, 24px) solid palette(grey, xx-light); 
+		font-size: em(24px);
+	}
+	font-weight: $font-weight--light;
+	font-style : italic;
+	font-size : em(20px);
+}
+
+// NEW CODE ---CHECK THIS IS DRY---
+.citation {
+	margin-top: em(30px);
+	margin-bottom: em(36px);
+	color: $grey;
+	font-weight: $font-weight--medium;
+	font-size: em(14px);
+	}
+
+
+
+.citation-02 {
+	margin-top: em(10px);
+	margin-bottom: em(15px);
+	color: $grey;
+	font-weight: $font-weight--medium;
+	font-size: em(14px);
+	}
+// NEW CODE ---CHECK THIS IS DRY---
+
+
+// Lists
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+
+// NEW CODE ---CHECK THIS IS DRY---
+
+
+.list-divider {
+	padding: 1px 0 0 0;
+	background: palette(grey, x-light);
+	border: none;
+	}
+
+
+
+// NEW CODE ---CHECK THIS IS DRY---
+
+
+
+// Images
+
+img {
+
+// NEW CODE ---CHECK THIS IS DRY---
+  //margin-bottom: em(24px);
+
+// NEW CODE ---CHECK THIS IS DRY---
+  max-width: 100%;
+  height: auto;
+
+// NEW CODE ---CHECK THIS IS DRY---
+	vertical-align: bottom;
+	//max-width: 100%;
+// NEW CODE ---CHECK THIS IS DRY---
+}
+
+// NEW CODE ---CHECK THIS IS DRY---
+
+.img-mouseover:hover {
+	opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+
+}
+
+
+.search-button {
+	float: left;
+}
+
+.search-bar {
+	float: right;
+}
+
+
+
+
+
+.descretionary-margin {
+	margin-bottom: em(15px);
+}
+// NEW CODE ---CHECK THIS IS DRY---
+
+// Form elements
+
+input, 
+textarea {
+	display: block;
+	padding: 15px;
+	width: 100%; 
+	outline: 0;
+	border: 0;
+}
+
+input:focus, 
+textarea:focus {
+	transition: $trns_duration;
+}
+
+// Button
+
+button {
+	outline: 0;
+}
+
+// Footer
+
+footer {
+//    background: url(http://placehold.it/800x800/ddd/eee/&text=Background) palette(grey, xx-light);
+    background: palette(grey, xx-light);
+
+// ---REMOVE---	//
+//border-top: 4px solid $color-secondary;
+// ---REMOVE---	//
+
+
+	padding-top: 20px;
+  	height: auto;
+  
+  @include bk-splash;
+
+
+font-size: $base__font-size - 3;
+
+// NEW CODE ---CHECK THIS IS DRY---
+
+}
+
+footer.div {
+	margin: 20px 0;
+
+}

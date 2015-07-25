@@ -1,0 +1,543 @@
+// ==========================================================================
+// Panels
+// ==========================================================================
+
+
+.slider { position: relative; overflow: auto; }
+    .slider li { list-style: none; }
+        .slider ul li { float: left; }
+
+
+
+
+
+.panel {
+
+	@extend %panel-default;
+	@include m(centered) {
+		@extend %panel-default;
+		@extend %center-align;
+	}
+	@include m(padded) {
+		@extend %panel-padding;
+		@include m(centered) {
+			@extend %center-align;
+			@extend %panel-padding;
+			border: 1px solid #f00;
+		}
+	}
+
+}
+
+
+
+
+
+
+	// NEW CODE ---CHECK THIS IS DRY---
+.panel-primary {
+		
+		background: $color-accent;
+		padding: em(3px) em(10px);
+		margin: em(3px) 0; 
+		
+		& a {
+		color: $white;
+		}
+		
+		&:hover {
+		color: $white;
+		}
+	}
+
+
+
+	// NEW CODE ---CHECK THIS IS DRY---
+.footer-primary {
+		@extend .panel-primary;
+		display: inline-block;
+		margin-right: em(5px);
+		font-size: em(18px);
+
+
+	}
+
+.valign-mid {
+text-align: center;
+margin-top: 3%;
+
+
+}
+
+
+.panel-secondary {
+		
+		
+//		background: $color-secondary;
+//		background: palette(grey, x-light);
+		padding-top: 20px;
+		padding-left: 5px;
+		padding-right: 5px; 
+		padding-bottom: 20px;
+		margin: 0px 0 0px 0; 
+		@extend %panel-padding;
+		color: $white;		
+		max-width: 100%;
+	}
+
+	// NEW CODE ---CHECK THIS IS DRY---
+//Consider making this the include that panel-secondary leeches off of
+.sharing-header {
+	color: palette(grey, dark);
+	background: none;
+	max-width: none;
+	margin-bottom: 50px;
+
+
+	@extend .panel-secondary;
+}
+
+.sharing {
+	margin: 0px 0 40px 0; 	
+	float: right;
+}
+
+.sharing-item {
+	display: inline;
+	vertical-align: middle;
+}
+	// NEW CODE ---CHECK THIS IS DRY---
+
+
+
+
+
+	// NEW CODE ---CHECK THIS IS DRY---
+
+
+	// NEW CODE ---CHECK THIS IS DRY---
+.panel-blue {
+		
+		@extend .panel;
+		background: $color-primary;
+		padding: 15px;
+		margin: 5px 0 10px 0; 
+		@extend %panel-padding;
+		color: $white;
+	}
+	// NEW CODE ---CHECK THIS IS DRY---
+
+// NEW CODE ---CHECK THIS IS DRY---
+.splash {
+  text-align: left;
+  background: url(../img/bk02.jpg) $white;
+  padding-top: 100px;
+  height: auto;
+  
+  @include bk-splash;
+
+  
+//	text-shadow: 1px 1px 6px rgba(0,0,0,0.15);
+	
+ }
+
+
+.splash-a {
+
+	 text-align: left;
+	 background: url(../img/bk02-a.jpg) $white;
+	 padding-top: 100px;
+	 height: auto;
+  
+  @include bk-splash;
+
+
+
+//	text-shadow: 1px 1px 5px rgba(0,0,0,0.35);
+ }
+
+
+
+.splash-b {
+ 	text-align: left;
+	 background: url(../img/bk02-b.jpg) $white;
+	 padding-top: 100px;
+	 height: auto;
+  
+  @include bk-splash;
+
+
+//	text-shadow: 1px 1px 5px rgba(0,0,0,0.35);
+ }
+
+
+
+.splash-c {
+  	text-align: left;
+	 background: url(../img/bk02-c.jpg) $white;
+	 padding-top: 100px;
+	 height: auto;
+  
+  @include bk-splash;
+
+	
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.35);
+
+ 
+ }
+
+
+
+.splash-d {
+  	text-align: left;
+	 background: url(../img/bk02-d.jpg) $white;
+	 padding-top: 100px;
+	 height: auto;
+  
+  @include bk-splash;
+
+
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.35);
+ 
+ }
+
+
+
+
+.splash-e {
+  	text-align: left;
+	 background: url(../img/bk02-e.jpg) $white;
+	 padding-top: 100px;
+	 height: auto;
+  
+  @include bk-splash;
+
+
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.35);
+ 
+ }
+
+
+
+@mixin panel-top {
+padding-top: 80px;
+  height: auto;
+
+   @include mq(medium) {
+	 padding-top: 120px;
+
+ 
+    } 
+
+
+}
+
+.splash-home {
+  text-align: center;
+  background: url(../img/header-01a.jpg) $white;
+  padding: 30px 0;
+  //height: auto;
+  h1, h2 { 
+  color: $white;
+  }
+
+
+  	height: 100%;
+	background-position: center center;
+	//background-position: fixed no-repeat bottom right;
+	background-size: cover;
+	//background-attachment: fixed;
+	position: relative;
+
+  @include bk-splash;
+
+@include mq(medium) {
+	  padding: 90px 0;
+ 
+    } 
+@include mq(large) {
+	  padding: 170px 0;
+ 
+    } 
+
+ }
+
+.splash-home {
+  text-align: left;
+  
+//background: url(http://placehold.it/800x800/bbb/eee/&text=Background) $grey;
+ 
+
+  
+  @include bk-splash;
+
+padding-top: 0px;
+  height: auto;
+
+   @include mq(medium) {
+	 padding-top: 0px;
+	 }
+ }
+
+
+
+
+ @include mq(medium) {
+	height: auto;
+ 
+    } 
+ 
+
+//Hashtag
+
+.hashtag {
+		
+		margin: 80px 0 0px 0;
+		
+		@include mq(medium) {
+		margin: 120px 0 0px 0;
+ 
+    } 
+}
+
+
+
+
+
+
+  // NEW CODE ---CHECK THIS IS DRY---
+
+.list-panel {
+	
+	font-size: $base__font-size - 2;
+	padding: 0 7px;
+}
+
+p.list-panel:last-child {
+	margin-bottom: 5px;
+}
+
+
+// NEW CODE ---CHECK THIS IS DRY---
+.panel-pic {
+  text-align: center;
+  color: $white;
+  
+  background: url(../img/bk08.jpg) $white;
+padding: 00px;
+ position: relative;
+ height: 100%;
+  
+  @include bk-splash;
+
+
+
+ @include mq(medium) {
+	height: 100%;
+ position: relative;
+    } 
+  }
+
+
+
+
+
+
+// ---CHECK HEADER IS DRY---
+// NEW CODE ---CHECK THIS IS DRY---
+
+//header {
+//	background-image: url(../img/[[[INSERTIMAGE]]].jpg); 
+//}
+
+
+section#bk01 {
+	background-image: url(../img/bk01.png); 
+}
+
+section#bk02 {
+
+	background-image: url(../img/bk02.png); 
+}
+// ---CHECK HEADER IS DRY---
+// NEW CODE ---CHECK THIS IS DRY---
+
+
+
+// NEW CODE ---CHECK THIS IS DRY---
+
+//---Consider this as desktop-needs refactoring for mobile---
+.home-panel {	
+	padding: 0px 0;
+}
+// NEW CODE ---CHECK THIS IS DRY---
+
+
+
+// NEW CODE ---CHECK THIS IS DRY---
+
+.home-panel-02 {
+width: 100%;	
+background-color: palette(grey, xx-light);
+}
+
+// NEW CODE ---CHECK THIS IS DRY---
+
+
+
+.footer-links {
+	float:none;
+	padding-top: em(30px);
+	display: inline-block;
+//	width: 100%;
+	text-align: left;
+	padding-right: em(30px);
+//border: 1px solid #f00;
+
+		@include mq(medium) {
+			padding-top: em(30px);
+			float:right;
+		}
+
+}
+
+.link-icons {
+		@extend .footer-links;
+		text-align: center;
+//border: 1px solid #f00;
+		
+	}
+
+
+.imagelist li{
+            padding:0;
+            margin:0;
+}
+
+
+
+
+.panel-spacing {
+	
+		margin: em(20px) 0;
+		@include mq(medium) {
+			margin: em(10px) 0;
+		}
+
+}
+
+
+centered-spacing {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+
+
+
+}
+
+
+
+.full {
+
+	height: 100%;
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+
+#pane01 {
+	background-color: $color-01;
+	background: url(../img/bk-01.jpg);
+	  @include bk-splash;
+ 		@include panel-top;
+	 height: auto;
+}
+#pane02 {
+	background-color: $color-02;
+ @include panel-top;
+}
+#pane03 {
+	background-color: $color-03;
+ @include panel-top;
+}
+#pane04 {
+	background-color: $color-04;
+ @include panel-top;
+}
+
+#pane05 {
+	background-color: $color-05;
+ @include panel-top;
+}
+
+#pane06 {
+	background-color: $color-06;
+ @include panel-top;
+}
+
+
+
+//.valign {
+//	position: absolute;
+//	top:50%; 
+//    height:50%; 
+//    margin-top:-25%;
+//}
+
+
+.adspace {
+	//@extend .grid-wide;
+
+	text-align: center;
+	padding: 10px 0;
+	background-color: palette(grey, xx-light);
+	margin: em(0px); 
+	max-width: 100%;
+
+}
+
+.adspace-02 {
+	//@extend .grid-wide;
+
+	text-align: center;
+	padding: 10px 0;
+	background-color: palette(grey, xx-light);
+	margin: 20px 0 0 0; 
+	max-width: 100%;
+
+}
+
+.adspace-03 {
+	//@extend .grid-wide;
+
+	text-align: center;
+	padding: 10px 0;
+//	background-color: palette(grey, xx-light);
+	margin: 20px 0 10px 0; 
+	max-width: 100%;
+
+}
+
+
+
+	// NEW CODE ---CHECK THIS IS DRY---
+.boxout {
+		
+		background-color: #f0f0f0;
+		padding: em(25px);
+		margin: em(3px); 
+		margin-bottom: em(20px); 
+		font-weight: $font-weight--medium;
+		font-size: em(14px);
+		@include mq(medium) {
+			font-size: em(18px);
+		}
+	    	
+		
+	}
+
+
