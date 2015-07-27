@@ -537,8 +537,14 @@ centered-spacing {
 		margin-bottom: em(20px); 
 		font-weight: $font-weight--medium;
 		font-size: em(14px);
+		h4 {
+			font-size: em(18px);
+		}
 		@include mq(medium) {
 			font-size: em(18px);
+			h4 {
+				font-size: em(20px);
+			}
 		}
 	    	
 		

@@ -262,8 +262,20 @@ header {
   margin-top: 0.625em;
   margin-bottom: 0.625em; }
 
+h3 {
+  margin-top: 1.25em;
+  margin-bottom: 0em;
+  font-weight: 700;
+  font-size: 1.25em;
+  color: #0b0b0b; }
+  @media (min-width: 769px) {
+    h3 {
+      margin-top: 1.25em;
+      font-size: 1.625em; } }
+
 h4 {
-  margin: 0.625em 0;
+  margin-top: 0em;
+  margin-bottom: 0.3125em;
   font-weight: 700;
   font-size: 1.125em;
   color: #0b0b0b; }
@@ -752,9 +764,13 @@ centered-spacing {
   margin-bottom: 1.25em;
   font-weight: 400;
   font-size: 0.875em; }
+  .boxout h4 {
+    font-size: 1.125em; }
   @media (min-width: 769px) {
     .boxout {
-      font-size: 1.125em; } }
+      font-size: 1.125em; }
+      .boxout h4 {
+        font-size: 1.25em; } }
 
 .grid-wide {
   width: 100%; }
@@ -893,13 +909,6 @@ h2, .h1-landing-02, .headline-secondary, .headline-secondary--grouped {
     h2, .h1-landing-02, .headline-secondary, .headline-secondary--grouped {
       font-size: 4.5em;
       font-weight: 200; } }
-
-h3 {
-  font-size: 1.125em;
-  font-weight: 400;
-  margin-top: 0.25em;
-  margin-bottom: 0.0625em;
-  line-height: 1.1em; }
 
 .form__btn, [class^="btn--"] {
   padding: 15px 30px;
