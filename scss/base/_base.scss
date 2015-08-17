@@ -36,21 +36,17 @@ header {
 		position: relative;
 		background-color: rgba(255,255,255,0.94);
 		z-index: 0;
+		width: 100%;
+		box-shadow: 0px 2px 3px $color-shadow;
 
+		@include mq(medium) {
 
-	
-	width: 100%;
-	// background-color: palette(grey, xx-light);
-box-shadow: 0px 2px 3px $color-shadow;
+			position: fixed;	
+			z-index: 1;
+			background: rgb(245, 245, 245); /* Fallback */
+			background-color: rgba(255,255,255,0.90);
 
-@include mq(medium) {
-
-	position: fixed;
-	z-index: 1;
-	background: rgb(245, 245, 245); /* Fallback */
-	background-color: rgba(255,255,255,0.90);
-
-	}
+		}
 }
 
 
@@ -290,25 +286,17 @@ li {
 
 img {
 
-// NEW CODE ---CHECK THIS IS DRY---
   //margin-bottom: em(24px);
-
-// NEW CODE ---CHECK THIS IS DRY---
-  max-width: 100%;
-  height: auto;
-
-// NEW CODE ---CHECK THIS IS DRY---
+	max-width: 100%;
+	height: auto;
 	vertical-align: bottom;
 	//max-width: 100%;
-// NEW CODE ---CHECK THIS IS DRY---
 }
 
-// NEW CODE ---CHECK THIS IS DRY---
 
 .img-mouseover:hover {
 	opacity: 0.6;
     filter: alpha(opacity=60); /* For IE8 and earlier */
-
 }
 
 
