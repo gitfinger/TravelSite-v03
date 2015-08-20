@@ -5,9 +5,7 @@
 // No fancy nesting here for better readability
 
 .nav {
-	margin-top: em(0px);
-	margin-bottom: em(0px);
-
+	@include margin-vertical(0px, 0px);
 
 // NEW CODE ---CHECK THIS IS DRY---		
 	padding: 65px 0 0 0;

@@ -346,9 +346,9 @@ blockquote {
 .byline-02 {
   margin-top: 0.625em;
   margin-bottom: 0.9375em;
-  color: #797e83;
   font-size: 14px;
-  font-weight: 400; }
+  font-weight: 400;
+  color: #797e83; }
 
 ul,
 li {
@@ -378,6 +378,7 @@ img {
   float: right; }
 
 .descretionary-margin {
+  margin-top: 0em;
   margin-bottom: 0.9375em; }
 
 input,
@@ -408,18 +409,19 @@ footer {
   font-size: 13px; }
 
 footer.div {
-  margin: 20px 0; }
+  margin-top: 1.25em;
+  margin-bottom: 1.25em; }
 
-.panel, .panel-blue, .panel--centered {
+.panel, .panel--centered {
   padding-top: 1.875em; }
   @media (min-width: 769px) {
-    .panel, .panel-blue, .panel--centered {
+    .panel, .panel--centered {
       padding-bottom: 1.25em; } }
 
-.panel--padded, .panel--padded--centered, .panel-secondary, .sharing-header, .panel-blue {
+.panel--padded, .panel--padded--centered, .panel-secondary, .sharing-header {
   padding-top: 2.125em; }
   @media (min-width: 769px) {
-    .panel--padded, .panel--padded--centered, .panel-secondary, .sharing-header, .panel-blue {
+    .panel--padded, .panel--padded--centered, .panel-secondary, .sharing-header {
       padding-top: 5em;
       padding-bottom: 2.125em; } }
 
@@ -455,13 +457,14 @@ footer.div {
   margin-top: 3%; }
 
 .panel-secondary, .sharing-header {
-  padding-top: 20px;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-bottom: 20px;
   margin: 0px 0 0px 0;
   color: #fff;
   max-width: 100%; }
+  .panel-secondary padding, .sharing-header padding {
+    top: 20px;
+    left: 5px;
+    right: 5px;
+    bottom: 20px; }
 
 .sharing-header {
   color: #656a6e;
@@ -477,12 +480,6 @@ footer.div {
   display: inline;
   vertical-align: middle; }
 
-.panel-blue {
-  background: #016dfd;
-  padding: 15px;
-  margin: 5px 0 10px 0;
-  color: #fff; }
-
 .splash {
   text-align: left;
   background: url(../img/bk02.jpg) #fff;
@@ -497,69 +494,6 @@ footer.div {
   @media (min-width: 769px) {
     .splash {
       padding-top: 100px; } }
-
-.splash-a {
-  text-align: left;
-  background: url(../img/bk02-a.jpg) #fff;
-  padding-top: 100px;
-  height: auto;
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover; }
-
-.splash-b {
-  text-align: left;
-  background: url(../img/bk02-b.jpg) #fff;
-  padding-top: 100px;
-  height: auto;
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover; }
-
-.splash-c {
-  text-align: left;
-  background: url(../img/bk02-c.jpg) #fff;
-  padding-top: 100px;
-  height: auto;
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.35); }
-
-.splash-d {
-  text-align: left;
-  background: url(../img/bk02-d.jpg) #fff;
-  padding-top: 100px;
-  height: auto;
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.35); }
-
-.splash-e {
-  text-align: left;
-  background: url(../img/bk02-e.jpg) #fff;
-  padding-top: 100px;
-  height: auto;
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.35); }
 
 .splash-home {
   text-align: center;
@@ -856,13 +790,13 @@ h2, .h1-landing-02, .headline-secondary, .headline-secondary--grouped {
       font-weight: 200; } }
 
 .form__btn, [class^="btn--"] {
+  font-size: 14px;
+  font-weight: 400;
   padding: 15px 30px;
   border: 0;
   border-radius: 0.4em;
   color: #fff;
   text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 400;
   transition: opacity 0.3s;
   display: block; }
   .form__btn:hover, [class^="btn--"]:hover {

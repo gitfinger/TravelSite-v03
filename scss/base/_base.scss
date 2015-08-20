@@ -149,8 +149,7 @@ h4 {
 			size: em(24px);
 		}
 		
-	}
-	
+	}	
 
 }
 
@@ -169,10 +168,8 @@ h5 {
 
 
 h6 {
-
 	@include font-s-w(18px, $font-weight--medium);
 	letter-spacing: $letter-space;
-
 
 	@include mq(medium) {
 		margin-top: em(4px);
@@ -183,7 +180,6 @@ h6 {
 
 a {
 	color: palette(grey, dark); 
-	//color: #0000cc;
 	text-decoration: none;
 	border-bottom: 1px $color-dark dotted;
 	font-weight: $font-weight--bold;
@@ -233,22 +229,24 @@ blockquote {
 	
 }
 
+
+
 // NEW CODE ---CHECK THIS IS DRY---
 .byline {
 	@include margin-vertical(10px, 10px);
 	@include font-s-w(14px, $font-weight--medium);
 	color: $grey;
-
 	}
-
-
 
 .byline-02 {
 	@include margin-vertical(10px, 15px);
-	color: $grey;
 	@include font-s-w(14px, $font-weight--medium);
+	color: $grey;
 	}
 // NEW CODE ---CHECK THIS IS DRY---
+
+
+
 
 
 // Lists
@@ -261,18 +259,19 @@ li {
 }
 
 
+
+
+
 // NEW CODE ---CHECK THIS IS DRY---
-
-
 .list-divider {
 	padding: 1px 0 0 0;
 	background: palette(grey, x-light);
 	border: none;
 	}
-
-
-
 // NEW CODE ---CHECK THIS IS DRY---
+
+
+
 
 
 
@@ -284,7 +283,6 @@ img {
 	max-width: 100%;
 	height: auto;
 	vertical-align: bottom;
-	//max-width: 100%;
 }
 
 
@@ -302,14 +300,14 @@ img {
 	float: right;
 }
 
-
-
-
-
 .descretionary-margin {
-	margin-bottom: em(15px);
+	@include margin-vertical(0px, 15px);
 }
-// NEW CODE ---CHECK THIS IS DRY---
+
+
+
+
+
 
 // Form elements
 
@@ -333,30 +331,20 @@ button {
 	outline: 0;
 }
 
+
+
+
 // Footer
 
 footer {
-//    background: url(http://placehold.it/800x800/ddd/eee/&text=Background) palette(grey, xx-light);
     background: palette(grey, xx-light);
-
-// ---REMOVE---	//
-//border-top: 4px solid $color-secondary;
-// ---REMOVE---	//
-
-
 	padding-top: 20px;
-  	height: auto;
-  
-  @include bk-splash;
-
-
-font-size: $base__font-size - 3;
-
-// NEW CODE ---CHECK THIS IS DRY---
+	height: auto;
+	@include bk-splash;
+	font-size: $base__font-size - 3;
 
 }
 
 footer.div {
-	margin: 20px 0;
-
+	@include margin-vertical(20px, 20px);
 }

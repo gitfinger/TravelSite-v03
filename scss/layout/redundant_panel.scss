@@ -1,0 +1,149 @@
+//header {
+//	background-image: url(../img/[[[INSERTIMAGE]]].jpg); 
+//}
+
+
+
+	// NEW CODE ---CHECK THIS IS DRY---
+//.panel-blue {
+//		
+//		@extend .panel;
+//		background: $color-primary;
+//		padding: 15px;
+//		margin: 5px 0 10px 0; 
+//		@extend %panel-padding;
+//		color: $white;
+//	}
+	// NEW CODE ---CHECK THIS IS DRY---
+
+
+
+
+//.splash-a {
+//
+//	 text-align: left;
+//	 background: url(../img/bk02-a.jpg) $white;
+//	 padding-top: 100px;
+//	 height: auto;
+//
+//	 @include bk-splash;
+//	text-shadow: 1px 1px 5px rgba(0,0,0,0.35);
+// }
+
+
+
+
+
+
+
+.splash-b {
+ 	text-align: left;
+//	 background: url(../img/bk02-b.jpg) $white;
+	 padding-top: 100px;
+	 height: auto;
+  
+//  @include bk-splash;
+
+
+//	text-shadow: 1px 1px 5px rgba(0,0,0,0.35);
+ }
+
+
+
+
+
+
+
+.splash-c {
+  	text-align: left;
+//	 background: url(../img/bk02-c.jpg) $white;
+	 padding-top: 100px;
+	 height: auto;
+  
+ // @include bk-splash;
+
+	
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.35);
+
+ 
+ }
+
+
+
+
+
+
+
+.splash-d {
+  	text-align: left;
+//	 background: url(../img/bk02-d.jpg) $white;
+	 padding-top: 100px;
+	 height: auto;
+  
+//  @include bk-splash;
+
+
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.35);
+ 
+ }
+
+
+
+
+
+
+
+.splash-e {
+  	text-align: left;
+//	 background: url(../img/bk02-e.jpg) $white;
+	 padding-top: 100px;
+	 height: auto;
+  
+//  @include bk-splash;
+
+
+	text-shadow: 1px 1px 5px rgba(0,0,0,0.35);
+ 
+ }
+
+
+
+
+//#pane01 {
+//	background-color: $color-01;
+//	background: url(../img/bk-01.jpg);
+//	  @include bk-splash;
+//		@include panel-top;
+//	 height: auto;
+//}
+//#pane02 {
+//	background-color: $color-02;
+// @include panel-top;
+//}
+//#pane03 {
+//	background-color: $color-03;
+// @include panel-top;
+//}
+//#pane04 {
+//	background-color: $color-04;
+// @include panel-top;
+//}
+
+//#pane05 {
+//	background-color: $color-05;
+// @include panel-top;
+//}
+
+//#pane06 {
+//	background-color: $color-06;
+// @include panel-top;
+//}
+
+
+
+//.valign {
+//	position: absolute;
+//	top:50%; 
+//    height:50%; 
+//    margin-top:-25%;
+//}

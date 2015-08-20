@@ -8,13 +8,11 @@
   @include mq(medium) {
     display: inline-block;
     //margin-right: em(6px, 5px);
-//padding: 0px 7px 0px 7px ;
-
-
+    //padding: 0px 7px 0px 7px ;
   }
 
-
 }
+
 
 
 %nav-item-link {
@@ -40,8 +38,6 @@
   }
 
 
-
-
   @include mq(large) {
   font-size: em(18px);
  // padding: em(8px, 20px);
@@ -55,22 +51,12 @@
 
 
 
-
-
-
-
-
-
-
-
 // --- ACTIVE HOVER STATE MAIN MENU + NAV---
 %nav-item-on {
   color: palette(black);
   border-color: $color-primary;
   text-decoration: none;
    background-color: rgba(230,230,230,0.50);
-
-
 
 }
 // --- ACTIVE HOVER STATE MAIN MENU + NAV---
@@ -85,8 +71,6 @@
   @extend %nav-item-on;
   background-color: transparent;
   border-bottom-color: $color-primary;
-  
-  
  
 }
 // --- ACTIVE CURRENT  STATE MAIN MENU + NAV---
@@ -122,56 +106,29 @@
 
 
 
-
-
 %hdln-sec {
 
   @include font-s-w(42px, $font-weight--light);
 
   margin: 0;
   line-height: (46px/42px);
+
   @include mq(medium) {
-
     @include font-s-w(72px, $font-weight--thin);
-
   }
-
 
 }
 
 
 
-
-// NEW CODE ---CHECK THIS IS DRY---
 %hdln-ter {
 
   @include font-s-w(18px, $font-weight--medium);
   @include margin-vertical(4px, 1px);
-
+ 
   line-height: em(33px, 30px);
 
-
-//  color: $white;
-  //letter-spacing: $letter-space;
-//  font-weight: $font-weight--medium;
-//  font-size: em(20px);
-//  font-family: $font-family--primary;
-//  margin-top: 5px; 
-
-//    @include mq(medium) {
-//    font-size: em(24px);
-//    font-weight: $font-weight--light;
-//  }
-
 }
-// NEW CODE ---CHECK THIS IS DRY---
-
-
-
-
-
-
-
 
 
 
@@ -180,13 +137,14 @@
 // Buttons
 
 %btn {
+  @include font-s-w(14px, $font-weight--medium);
+
   padding: 15px 30px;
   border: 0;
   border-radius : $br--default;
   color: $color-btntxt;
   text-transform: uppercase;
 
-  @include font-s-w(14px, $font-weight--medium);
   
   transition: opacity $trns-duration;
   display: block;
@@ -197,6 +155,9 @@
     opacity: initial;
   }
 }
+
+
+
 
 // Menu link
 
@@ -209,6 +170,9 @@
   text-shadow: 0 1px $color-shadow;
   font-size: em(18px);
 }
+
+
+
 
 // Icons
 
