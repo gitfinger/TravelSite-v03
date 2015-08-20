@@ -801,9 +801,9 @@ centered-spacing {
     display: inline-block; } }
 
 .nav__item--current a, .nav__item a {
+  font-size: 14px;
   font-weight: 700;
   text-align: center;
-  font-size: 0.875em;
   display: block;
   padding: 5px 0 0 0;
   line-height: 80px;
@@ -811,12 +811,12 @@ centered-spacing {
   border-bottom: 4px solid transparent; }
   @media (min-width: 1px) and (max-width: 768px) {
     .nav__item--current a, .nav__item a {
+      font-size: 17px;
+      font-weight: 700;
       line-height: 20px;
       border-bottom-color: #ebecec;
-      font-weight: 700;
       padding-top: 0.7777777778em;
-      padding-bottom: 0.7777777778em;
-      font-size: 1.0625em; } }
+      padding-bottom: 0.7777777778em; } }
   @media (min-width: 1100px) {
     .nav__item--current a, .nav__item a {
       font-size: 1.125em;
@@ -833,26 +833,26 @@ centered-spacing {
   border-bottom-color: #016dfd; }
 
 h1, .h2-landing, .h2-landing-02, .headline-primary, .headline-primary--grouped {
-  letter-spacing: normal;
+  font-size: 20px;
   font-weight: 900;
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 1.25em;
-  line-height: 1.5;
   margin-top: 0.25em;
-  margin-bottom: 0.25em; }
+  margin-bottom: 0.25em;
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: normal;
+  line-height: 1.5; }
   @media (min-width: 769px) {
     h1, .h2-landing, .h2-landing-02, .headline-primary, .headline-primary--grouped {
       font-size: 1.5em;
       line-height: 1.5; } }
 
 h2, .h1-landing-02, .headline-secondary, .headline-secondary--grouped {
-  font-size: 2.625em;
+  font-size: 42px;
   font-weight: 300;
   margin: 0;
   line-height: 1.0952380952; }
   @media (min-width: 769px) {
     h2, .h1-landing-02, .headline-secondary, .headline-secondary--grouped {
-      font-size: 4.5em;
+      font-size: 72px;
       font-weight: 200; } }
 
 .form__btn, [class^="btn--"] {
@@ -861,7 +861,7 @@ h2, .h1-landing-02, .headline-secondary, .headline-secondary--grouped {
   border-radius: 0.4em;
   color: #fff;
   text-transform: uppercase;
-  font-size: 0.875em;
+  font-size: 14px;
   font-weight: 400;
   transition: opacity 0.3s;
   display: block; }
