@@ -23,8 +23,11 @@ html, body {
 body {
 	color: palette(grey, xx-dark);
 
-  	font-size: $base__font-size;
-  	font-family: $font-family--primary;
+  	font: {
+  		size: $base__font-size;
+  		family: $font-family--primary;
+  	}
+
   	line-height: ($base__line/$base__font-size);
 }
 
@@ -64,9 +67,12 @@ header {
 
 .full {
 	height: 100%;
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
+	background: {
+		position: center center;
+		size: cover;
+		attachment: fixed;
+	}
+
 	position: relative;
 }
 
@@ -97,40 +103,33 @@ h2 {
 // NEW CODE ---TRY TO MERGE---
 .h2-landing {
 		@extend %hdln-prim;
-		margin-top: em(20px);
-  		margin-bottom: em(20px);
+		@include margin-vertical(20px, 20px);
+		
 	}
-// NEW CODE ---TRY TO MERGE---
 
-// NEW CODE ---TRY TO MERGE---
 .h2-landing-02 {
 		@extend %hdln-prim;
-		margin-top: em(10px);
-  		margin-bottom: em(10px);
+		@include margin-vertical(10px, 10px);
 	}
-// NEW CODE ---TRY TO MERGE---
 
-// NEW CODE ---TRY TO MERGE---
 .h1-landing-02 {
 		@extend %hdln-sec;
-		margin-top: em(10px);
-  		margin-bottom: em(10px);
+		@include margin-vertical(10px, 10px);
 	}
 // NEW CODE ---TRY TO MERGE---
 
 
 
 h3 {
+	@include margin-vertical(20px, 0px);
+	@include font-s-w(20px, $font-weight--bold);
 
-	margin-top: em(20px);
-	margin-bottom: em(0px);
-	font-weight: $font-weight--bold;
-	font-size: em(20px);
 	color: $color-dark;
 
-		@include mq(medium) {
-		margin-top: em(20px);
-		font-size: em(26px);
+	@include mq(medium) {
+		font: {
+		size: em(26px);
+		}
 	}
 	
 }
@@ -140,15 +139,16 @@ h3 {
 
 
 h4 {
-	margin-top: em(0px);
-	margin-bottom: em(5px);
-	font-weight: $font-weight--bold;
-	font-size: em(18px);
+	@include margin-vertical(0px, 5px);
+	@include font-s-w(18px, $font-weight--bold);
+	
 	color: $color-dark;
 
-		@include mq(medium) {
-		margin-top: em(0px);
-		font-size: em(24px);
+	@include mq(medium) {
+		font {
+			size: em(24px);
+		}
+		
 	}
 	
 
@@ -157,12 +157,10 @@ h4 {
 
 
 h5 {
+	@include margin-vertical(12px, 5px);
+	@include font-s-w(32px, $font-weight--medium);
 
-	margin-top: em(12px);
-	margin-bottom: em(5px);
 	letter-spacing: $letter-space;
-	font-weight: $font-weight--medium;
-	font-size: em(32px);
   	line-height: em(36px, 32px);
 	@include mq(medium) {
 		margin-top: em(4px);
@@ -172,10 +170,9 @@ h5 {
 
 h6 {
 
-
+	@include font-s-w(18px, $font-weight--medium);
 	letter-spacing: $letter-space;
-	font-weight: $font-weight--medium;
-	font-size: em(18px);
+
 
 	@include mq(medium) {
 		margin-top: em(4px);
@@ -213,13 +210,13 @@ a.img-mouseover {
 
 p {
 //		color: $color-light;
-	margin: em(10px) 0 em(20px) 0;
-	font-weight: $font-weight--medium;
-	font-size: em(16px);
+
+	@include margin-vertical(10px, 20px);
+	@include font-s-w(18px, $font-weight--medium);
+
 	line-height: (28px/16px);
 	 @include mq(medium) {
-		font-weight: $font-weight--light;
-	 	font-size: em(22px);
+		@include font-s-w(22px, $font-weight--light);
 		line-height: (33px/22px);
 	 }
 }
@@ -231,28 +228,25 @@ blockquote {
 		border-left: em(8px, 24px) solid palette(grey, xx-light); 
 		font-size: em(24px);
 	}
-	font-weight: $font-weight--light;
+	@include font-s-w(20px, $font-weight--light);
 	font-style : italic;
-	font-size : em(20px);
+	
 }
 
 // NEW CODE ---CHECK THIS IS DRY---
 .byline {
-	margin-top: em(10px);
-	margin-bottom: em(10px);
+	@include margin-vertical(10px, 10px);
+	@include font-s-w(14px, $font-weight--medium);
 	color: $grey;
-	font-weight: $font-weight--medium;
-	font-size: em(14px);
+
 	}
 
 
 
 .byline-02 {
-	margin-top: em(10px);
-	margin-bottom: em(15px);
+	@include margin-vertical(10px, 15px);
 	color: $grey;
-	font-weight: $font-weight--medium;
-	font-size: em(14px);
+	@include font-s-w(14px, $font-weight--medium);
 	}
 // NEW CODE ---CHECK THIS IS DRY---
 

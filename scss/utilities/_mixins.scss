@@ -125,3 +125,26 @@
   -o-background-size: cover;
   -moz-background-size: cover;
   } 
+
+
+
+
+// Vertical Margins
+//// Need to consolidate!!!
+
+@mixin margin-vertical($top, $bottom) {
+    margin: {
+    top: em($top);
+    bottom: em($bottom);
+    }
+} 
+
+
+
+
+@mixin font-s-w($size, $weight) {
+  font: {
+    size: $size;
+    weight: $weight;
+  }
+}

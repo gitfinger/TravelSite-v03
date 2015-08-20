@@ -265,40 +265,38 @@ header {
 h3 {
   margin-top: 1.25em;
   margin-bottom: 0em;
+  font-size: 20px;
   font-weight: 700;
-  font-size: 1.25em;
   color: #0b0b0b; }
   @media (min-width: 769px) {
     h3 {
-      margin-top: 1.25em;
       font-size: 1.625em; } }
 
 h4 {
   margin-top: 0em;
   margin-bottom: 0.3125em;
+  font-size: 18px;
   font-weight: 700;
-  font-size: 1.125em;
   color: #0b0b0b; }
   @media (min-width: 769px) {
-    h4 {
-      margin-top: 0em;
-      font-size: 1.5em; } }
+    h4 font {
+      size: 1.5em; } }
 
 h5 {
   margin-top: 0.75em;
   margin-bottom: 0.3125em;
-  letter-spacing: 1px;
+  font-size: 32px;
   font-weight: 400;
-  font-size: 2em;
+  letter-spacing: 1px;
   line-height: 1.125em; }
   @media (min-width: 769px) {
     h5 {
       margin-top: 0.25em; } }
 
 h6 {
-  letter-spacing: 1px;
+  font-size: 18px;
   font-weight: 400;
-  font-size: 1.125em; }
+  letter-spacing: 1px; }
   @media (min-width: 769px) {
     h6 {
       margin-top: 0.25em; } }
@@ -316,20 +314,21 @@ a.img-mouseover {
   border-bottom: none; }
 
 p {
-  margin: 0.625em 0 1.25em 0;
+  margin-top: 0.625em;
+  margin-bottom: 1.25em;
+  font-size: 18px;
   font-weight: 400;
-  font-size: 1em;
   line-height: 1.75; }
   @media (min-width: 769px) {
     p {
+      font-size: 22px;
       font-weight: 300;
-      font-size: 1.375em;
       line-height: 1.5; } }
 
 blockquote {
+  font-size: 20px;
   font-weight: 300;
-  font-style: italic;
-  font-size: 1.25em; }
+  font-style: italic; }
   @media (min-width: 769px) {
     blockquote {
       margin: 1.3333333333em 0;
@@ -340,16 +339,16 @@ blockquote {
 .byline {
   margin-top: 0.625em;
   margin-bottom: 0.625em;
-  color: #797e83;
+  font-size: 14px;
   font-weight: 400;
-  font-size: 0.875em; }
+  color: #797e83; }
 
 .byline-02 {
   margin-top: 0.625em;
   margin-bottom: 0.9375em;
   color: #797e83;
-  font-weight: 400;
-  font-size: 0.875em; }
+  font-size: 14px;
+  font-weight: 400; }
 
 ul,
 li {
@@ -602,10 +601,12 @@ footer.div {
 @media (min-width: 769px) {
   height: auto; }
 .hashtag {
-  margin: 20px 0 0px 0; }
+  margin-top: 1.25em;
+  margin-bottom: 0em; }
   @media (min-width: 769px) {
     .hashtag {
-      margin: 120px 0 0px 0; } }
+      margin-top: 7.5em;
+      margin-bottom: 0em; } }
 
 .list-panel {
   font-size: 14px;
@@ -680,62 +681,6 @@ centered-spacing {
   background-size: cover;
   background-attachment: fixed;
   position: relative; }
-
-#pane01 {
-  background-color: #016dfd;
-  background: url(../img/bk-01.jpg);
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover;
-  padding-top: 80px;
-  height: auto;
-  height: auto; }
-  @media (min-width: 769px) {
-    #pane01 {
-      padding-top: 120px; } }
-
-#pane02 {
-  background-color: #00aca7;
-  padding-top: 80px;
-  height: auto; }
-  @media (min-width: 769px) {
-    #pane02 {
-      padding-top: 120px; } }
-
-#pane03 {
-  background-color: #ffca00;
-  padding-top: 80px;
-  height: auto; }
-  @media (min-width: 769px) {
-    #pane03 {
-      padding-top: 120px; } }
-
-#pane04 {
-  background-color: #e67900;
-  padding-top: 80px;
-  height: auto; }
-  @media (min-width: 769px) {
-    #pane04 {
-      padding-top: 120px; } }
-
-#pane05 {
-  background-color: #009182;
-  padding-top: 80px;
-  height: auto; }
-  @media (min-width: 769px) {
-    #pane05 {
-      padding-top: 120px; } }
-
-#pane06 {
-  background-color: #9d3585;
-  padding-top: 80px;
-  height: auto; }
-  @media (min-width: 769px) {
-    #pane06 {
-      padding-top: 120px; } }
 
 .adspace {
   text-align: center;
