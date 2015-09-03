@@ -11,15 +11,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/advertise.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/advertise.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/Article-alternate-HTML\/index-adtest-01.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -146,13 +137,35 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/img\/ad-haiti.jpg": {
+	"\/img\/ad-haiti-300x50.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8405,
+		"inputAbbreviatedPath": "\/img\/ad-haiti-300x50.jpg",
+		"outputAbbreviatedPath": "\/img\/ad-haiti-300x50.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ad-haiti-728x90.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29765,
+		"inputAbbreviatedPath": "\/img\/ad-haiti-728x90.jpg",
+		"outputAbbreviatedPath": "\/img\/ad-haiti-728x90.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ad-haiti~.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 28830,
-		"inputAbbreviatedPath": "\/img\/ad-haiti.jpg",
-		"outputAbbreviatedPath": "\/img\/ad-haiti.jpg",
+		"inputAbbreviatedPath": "\/img\/ad-haiti~.jpg",
+		"outputAbbreviatedPath": "\/img\/ad-haiti~.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -788,9 +801,31 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 96043,
+		"initialSize": 74041,
 		"inputAbbreviatedPath": "\/img\/travelsite-maps-haiti.png",
 		"outputAbbreviatedPath": "\/img\/travelsite-maps-haiti.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/travelsite-maps-haiti~.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96043,
+		"inputAbbreviatedPath": "\/img\/travelsite-maps-haiti~.png",
+		"outputAbbreviatedPath": "\/img\/travelsite-maps-haiti~.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/travelsite-maps-haiti~~.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 36037,
+		"inputAbbreviatedPath": "\/img\/travelsite-maps-haiti~~.png",
+		"outputAbbreviatedPath": "\/img\/travelsite-maps-haiti~~.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2989,6 +3024,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/UnusedCode\/advertise.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/UnusedCode\/advertise.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/UnusedCode\/app-promo.html": {
 		"fileType": 8192,

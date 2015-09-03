@@ -310,9 +310,6 @@ a {
     color: #0b0b0b;
     border-bottom: none; }
 
-a.img-mouseover {
-  border-bottom: none; }
-
 p {
   margin-top: 0.625em;
   margin-bottom: 1.25em;
@@ -475,6 +472,8 @@ footer.div {
 .sharing {
   margin: 0px 0 40px 0;
   float: right; }
+  .sharing a {
+    border-bottom: none; }
 
 .sharing-item {
   display: inline;
@@ -639,6 +638,18 @@ centered-spacing {
   padding: 10px 0;
   margin: 20px 0 10px 0;
   max-width: 100%; }
+
+.ad-is-collapsed-mobile {
+  display: none; }
+  @media (min-width: 769px) {
+    .ad-is-collapsed-mobile {
+      display: inline; } }
+
+.ad-is-displayed-mobile {
+  display: inline; }
+  @media (min-width: 769px) {
+    .ad-is-displayed-mobile {
+      display: none; } }
 
 .boxout {
   background-color: #f0f0f0;

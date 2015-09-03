@@ -104,6 +104,9 @@ margin-top: 3%;
 .sharing {
 	margin: 0px 0 40px 0; 	
 	float: right;
+	a {
+	border-bottom: none;
+	}
 }
 
 .sharing-item {
@@ -429,6 +432,23 @@ centered-spacing {
 
 }
 
+
+.ad-is-collapsed-mobile {
+	display: none;
+	@include mq(medium) {
+	display: inline;
+	}
+
+}
+
+
+.ad-is-displayed-mobile {
+	display: inline;
+	@include mq(medium) {
+	display: none;
+	}
+	
+}
 
 
 	// NEW CODE ---CHECK THIS IS DRY---
