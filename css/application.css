@@ -580,16 +580,20 @@ section#bk02 {
   width: 100%;
   background-color: #ebecec; }
 
+.footer-nav {
+  float: none; }
+  @media (min-width: 769px) {
+    .footer-nav {
+      float: right; } }
+
 .footer-links, .link-icons {
-  float: none;
   padding-top: 1.875em;
   display: inline-block;
   text-align: left;
   padding-right: 1.875em; }
   @media (min-width: 769px) {
     .footer-links, .link-icons {
-      padding-top: 1.875em;
-      float: right; } }
+      padding-top: 1.875em; } }
 
 .link-icons {
   text-align: center; }

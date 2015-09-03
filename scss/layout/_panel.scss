@@ -307,8 +307,29 @@ background-color: palette(grey, xx-light);
 
 
 
-.footer-links {
+
+.footer-nav {
 	float:none;
+//	padding-top: em(30px);
+//	display: inline-block;
+
+//	text-align: left;
+//	padding-right: em(30px);
+//border: 1px solid #f00;
+
+		@include mq(medium) {
+//			padding-top: em(30px);
+			float:right;
+		}
+
+}
+
+
+
+
+
+.footer-links {
+
 	padding-top: em(30px);
 	display: inline-block;
 //	width: 100%;
@@ -318,10 +339,13 @@ background-color: palette(grey, xx-light);
 
 		@include mq(medium) {
 			padding-top: em(30px);
-			float:right;
+	
 		}
 
 }
+
+
+
 
 .link-icons {
 		@extend .footer-links;
