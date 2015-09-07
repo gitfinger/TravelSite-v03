@@ -22,8 +22,8 @@
 		margin-bottom: em(0px);
 		
 		@include mq(medium) {
-			margin-top: em(40px);
-			margin-bottom: em(0px);
+			margin-top: em(10px);
+			margin-bottom: em(10px);
 		}
 	}
 	@include m(header) {
