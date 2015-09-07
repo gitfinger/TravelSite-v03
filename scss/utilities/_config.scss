@@ -3,7 +3,7 @@
 // ==========================================================================
 
 // Font Stacks
-
+//
 
 $font-url--google        : 'http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700,900';
 $font-family--primary    : 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -25,7 +25,7 @@ $grey  : #797e83;
 
 
 
-$fountain-blue: 	#016dfd;
+$fountain-blue: 	#01a4fd;
 $persian-green: 	#00aca7;
 $supernova: 		#ffca00;
 $mango-tango:		#e67900;
@@ -40,12 +40,12 @@ $plum: 				#9d3585;
 $color-btntxt	 : $white;
 $color-dark	 	 : $black;
 $color-light	 : $white;
-$color-primary : $fountain-blue;
+$color-primary 	 : $fountain-blue;
 $color-focus	 : $fountain-blue;
-//$color-primary   : $grey;
+//$color-primary : $grey;
 $color-secondary : $grey;
 $color-accent    : $grey;
-//$color-accent    : $persian-green;
+//$color-accent  : $persian-green;
 $color-shadow    : rgba($black, .2);
 $color-01		 : $fountain-blue;
 $color-02		 : $persian-green;
@@ -60,8 +60,8 @@ $color-palettes: (
 	grey: (
 		xx-light : lighten($grey, 43%),
 		x-light  : lighten($grey, 35%),
-	  light    : lighten($grey, 12%),
-	  base     : $grey,
+	  light    	 : lighten($grey, 12%),
+	  base       : $grey,
 	 	dark     : darken($grey, 8%),
 	 	x-dark   : darken($grey, 16%)
 	),

@@ -2,6 +2,16 @@
 // Base Styles
 // ==========================================================================
 
+//$susy: (
+//  columns: 12,
+//  container: 1200px,
+//  gutters: 1/4,
+// global-box-sizing: border-box,
+// debug: (image: show)
+//);
+
+
+
 * {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
@@ -115,6 +125,7 @@ h2 {
 .h1-landing-02 {
 		@extend %hdln-sec;
 		@include margin-vertical(10px, 10px);
+		text-align: center;
 	}
 // NEW CODE ---TRY TO MERGE---
 
