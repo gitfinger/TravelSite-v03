@@ -542,30 +542,6 @@ footer.div {
 p.list-panel:last-child {
   margin-bottom: 5px; }
 
-.panel-pic {
-  text-align: center;
-  color: #fff;
-  background: url(../img/bk08.jpg) #fff;
-  padding: 00px;
-  position: relative;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -o-background-size: cover;
-  -moz-background-size: cover; }
-  @media (min-width: 769px) {
-    .panel-pic {
-      height: 100%;
-      position: relative; } }
-
-section#bk01 {
-  background-image: url(../img/bk01.png); }
-
-section#bk02 {
-  background-image: url(../img/bk02.png); }
-
 .home-panel {
   padding: 0px 0; }
 

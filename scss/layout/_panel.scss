@@ -246,46 +246,13 @@ p.list-panel:last-child {
 }
 
 
-// NEW CODE ---CHECK THIS IS DRY---
-.panel-pic {
-  text-align: center;
-  color: $white;
-  
-  background: url(../img/bk08.jpg) $white;
-padding: 00px;
- position: relative;
- height: 100%;
-  
-  @include bk-splash;
-
-
-
- @include mq(medium) {
-	height: 100%;
- position: relative;
-    } 
-  }
 
 
 
 
 
 
-// ---CHECK HEADER IS DRY---
-// NEW CODE ---CHECK THIS IS DRY---
 
-
-
-section#bk01 {
-	background-image: url(../img/bk01.png); 
-}
-
-section#bk02 {
-
-	background-image: url(../img/bk02.png); 
-}
-// ---CHECK HEADER IS DRY---
-// NEW CODE ---CHECK THIS IS DRY---
 
 
 
