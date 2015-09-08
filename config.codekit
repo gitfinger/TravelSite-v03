@@ -65,6 +65,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/authors-tamsincrimmens.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/authors-tamsincrimmens.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/authors.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -756,6 +765,17 @@
 		"initialSize": 115897,
 		"inputAbbreviatedPath": "\/img\/profilepic-simonbuckby.jpg",
 		"outputAbbreviatedPath": "\/img\/profilepic-simonbuckby.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/profilepic-tamsincrimmens.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 57078,
+		"inputAbbreviatedPath": "\/img\/profilepic-tamsincrimmens.jpg",
+		"outputAbbreviatedPath": "\/img\/profilepic-tamsincrimmens.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

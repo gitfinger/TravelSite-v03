@@ -125,11 +125,11 @@ margin-top: 3%;
 // NEW CODE ---CHECK THIS IS DRY---
 .splash {
   text-align: left;
-  background: url(../img/bk02.jpg) $white;
+  //background: url(../img/bk02.jpg) $white;
   padding-top: 10px;
   height: auto;
   
-  @include bk-splash;
+ // @include bk-splash;
 
    @include mq(medium) {
 	 
@@ -423,12 +423,15 @@ centered-spacing {
 
 .adspace-03 {
 	//@extend .grid-wide;
-
-	text-align: center;
 	padding: 10px 0;
 //	background-color: palette(grey, xx-light);
-	margin: 20px 0 10px 0; 
+//	margin: 20px 0 10px 0;
+	margin: auto;
 	max-width: 100%;
+	//.ad {
+	//	margin: auto;
+	//	text-align: center;
+	//}
 
 }
 
