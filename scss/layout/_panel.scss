@@ -63,20 +63,19 @@
 
 
 	// NEW CODE ---CHECK THIS IS DRY---
-//Consider making this the include that panel-secondary leeches off of
+
 .sharing-header {
 	color: palette(grey, dark);
-	background: none;
-	max-width: none;
-	margin: 0px 0 0px 0; 
-	margin-bottom: 50px;
-	padding {
-			top: 20px;
-			left: 5px;
-			right: 5px; 
-			bottom: 20px;
-		}
-	@extend %panel-padding;
+//	background: none;
+//	max-width: none;
+//	margin-bottom: 50px;
+	//padding {
+	//		top: 20px;
+	//		left: 5px;
+	//		right: 5px; 
+	//		bottom: 20px;
+	//	}
+//	@extend %panel-padding;
 	
 }
 

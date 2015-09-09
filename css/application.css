@@ -424,10 +424,10 @@ footer.div {
     .panel, .panel--centered {
       padding-bottom: 1.25em; } }
 
-.panel--padded, .panel--padded--centered, .sharing-header {
+.panel--padded, .panel--padded--centered {
   padding-top: 2.125em; }
   @media (min-width: 769px) {
-    .panel--padded, .panel--padded--centered, .sharing-header {
+    .panel--padded, .panel--padded--centered {
       padding-top: 5em;
       padding-bottom: 2.125em; } }
 
@@ -449,16 +449,7 @@ footer.div {
   font-size: 1.125em; }
 
 .sharing-header {
-  color: #656a6e;
-  background: none;
-  max-width: none;
-  margin: 0px 0 0px 0;
-  margin-bottom: 50px; }
-  .sharing-header padding {
-    top: 20px;
-    left: 5px;
-    right: 5px;
-    bottom: 20px; }
+  color: #656a6e; }
 
 .sharing {
   margin: 0px 0 40px 0;
