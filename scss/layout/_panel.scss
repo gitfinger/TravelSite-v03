@@ -1,13 +1,7 @@
-// ==========================================================================
+// =======================================================================
 // Panels
-// ==========================================================================
-
-
-.slider { position: relative; overflow: auto; }
-    .slider li { list-style: none; }
-        .slider ul li { float: left; }
-
-
+// 
+//=========================================================================
 
 
 
@@ -62,30 +56,9 @@
 
 	}
 
-.valign-mid {
-text-align: center;
-margin-top: 3%;
 
 
-}
 
-
-.panel-secondary {
-		
-		
-//		background: $color-secondary;
-//		background: palette(grey, x-light);
-		padding {
-			top: 20px;
-			left: 5px;
-			right: 5px; 
-			bottom: 20px;
-		}
-		margin: 0px 0 0px 0; 
-		@extend %panel-padding;
-		color: $white;		
-		max-width: 100%;
-	}
 
 
 
@@ -95,10 +68,16 @@ margin-top: 3%;
 	color: palette(grey, dark);
 	background: none;
 	max-width: none;
+	margin: 0px 0 0px 0; 
 	margin-bottom: 50px;
-
-
-	@extend .panel-secondary;
+	padding {
+			top: 20px;
+			left: 5px;
+			right: 5px; 
+			bottom: 20px;
+		}
+	@extend %panel-padding;
+	
 }
 
 .sharing {
@@ -147,18 +126,7 @@ margin-top: 3%;
 
 
 
-@mixin panel-top {
-padding-top: 80px;
-  height: auto;
 
-   @include mq(medium) {
-	 padding-top: 120px;
-
- 
-    } 
-
-
-}
 
 .splash-home {
   text-align: center;
@@ -191,29 +159,23 @@ padding-top: 80px;
  }
 
 .splash-home {
-  text-align: left;
+  	text-align: left;
   
 //background: url(http://placehold.it/800x800/bbb/eee/&text=Background) $grey;
  
-
-  
-  @include bk-splash;
-
-padding-top: 0px;
-  height: auto;
-
+  	@include bk-splash;
+	padding-top: 0px;
+  	height: auto;
    @include mq(medium) {
 	 padding-top: 0px;
 	 }
  }
 
 
-
-
- @include mq(medium) {
-	height: auto;
- 
-    } 
+ //@include mq(medium) {
+//	height: auto;
+//
+//   } 
  
 
 //Landing Splash Spacing
@@ -266,14 +228,6 @@ p.list-panel:last-child {
 
 
 
-// NEW CODE ---CHECK THIS IS DRY---
-
-.home-panel-02 {
-width: 100%;	
-background-color: palette(grey, xx-light);
-}
-
-// NEW CODE ---CHECK THIS IS DRY---
 
 
 
@@ -296,8 +250,6 @@ background-color: palette(grey, xx-light);
 
 
 
-
-
 .footer-links {
 
 	padding-top: em(30px);
@@ -317,76 +269,14 @@ background-color: palette(grey, xx-light);
 
 
 
-.link-icons {
-		@extend .footer-links;
-		text-align: center;
-//border: 1px solid #f00;
-		
-	}
-
-
-.imagelist li{
-            padding:0;
-            margin:0;
-}
 
 
 
 
-.panel-spacing {
-	
-		margin: em(20px) 0;
-		@include mq(medium) {
-			margin: em(10px) 0;
-		}
-
-}
-
-
-centered-spacing {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 
 
 
 
-}
-
-
-
-.full {
-
-	height: 100%;
-	background-position: center center;
-	background-size: cover;
-	background-attachment: fixed;
-	position: relative;
-}
-
-
-
-.adspace {
-	//@extend .grid-wide;
-
-	text-align: center;
-	padding: 10px 0;
-	background-color: palette(grey, xx-light);
-	margin: em(0px); 
-	max-width: 100%;
-
-}
-
-.adspace-02 {
-	//@extend .grid-wide;
-
-	text-align: center;
-	padding: 10px 0;
-	background-color: palette(grey, xx-light);
-	margin: 20px 0 0 0; 
-	max-width: 100%;
-
-}
 
 .adspace-03 {
 	//@extend .grid-wide;

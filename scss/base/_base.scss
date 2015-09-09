@@ -132,7 +132,7 @@ h2 {
 
 
 h3 {
-	@include margin-vertical(20px, 0px);
+	@include margin-vertical(10px, 5px);
 	@include font-s-w(20px, $font-weight--bold);
 
 	color: $color-dark;
@@ -188,6 +188,15 @@ h6 {
 }
 
  
+hr.list-divider {
+	@include margin-vertical(15px, 15px);
+	@include mq(medium) {
+		@include margin-vertical(30px, 30px);
+	}
+	
+}
+
+
 
 a {
 	color: palette(grey, dark); 

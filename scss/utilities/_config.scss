@@ -69,7 +69,12 @@ $color-palettes: (
 		light    : lighten($black, 10%),
 		base     : $black,
 		dark     : darken($black, 10%)
-	)
+	),
+	fountain-blue: (
+		light    : lighten($fountain-blue, 10%),
+		base     : $fountain-blue,
+		dark     : darken($fountain-blue, 10%)
+	)	
 );
 
 // UI Colors
