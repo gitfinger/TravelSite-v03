@@ -51,3 +51,13 @@
 	@extend %center-align;
 	margin: 10px 0;
 }
+
+
+%margin-vertical-10x10 {
+    margin: {
+    top: em(10px);
+    bottom: em(10px);
+    }
+} 
+
+

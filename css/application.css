@@ -37,6 +37,10 @@ html {
 .centered-inline {
   margin: 10px 0; }
 
+p, .byline, .headline-primary, .headline-secondary {
+  margin-top: 0.625em;
+  margin-bottom: 0.625em; }
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -250,19 +254,6 @@ header {
   background-attachment: fixed;
   position: relative; }
 
-.h2-landing {
-  margin-top: 1.25em;
-  margin-bottom: 1.25em; }
-
-.h2-landing-02 {
-  margin-top: 0.625em;
-  margin-bottom: 0.625em; }
-
-.h1-landing-02 {
-  margin-top: 0.625em;
-  margin-bottom: 0.625em;
-  text-align: center; }
-
 h3 {
   margin-top: 0.625em;
   margin-bottom: 0.3125em;
@@ -320,8 +311,6 @@ a {
     border-bottom: none; }
 
 p {
-  margin-top: 0.625em;
-  margin-bottom: 0.625em;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.75; }
@@ -343,8 +332,6 @@ blockquote {
       font-size: 1.5em; } }
 
 .byline {
-  margin-top: 0.625em;
-  margin-bottom: 0.625em;
   font-size: 14px;
   font-weight: 400;
   color: #797e83; }
@@ -800,7 +787,7 @@ p.list-panel:last-child {
   background-color: transparent;
   border-bottom-color: #01a4fd; }
 
-h1, .h2-landing, .h2-landing-02, .headline-primary, .headline-primary--grouped {
+h1, .headline-secondary {
   font-size: 20px;
   font-weight: 900;
   margin-top: 0.25em;
@@ -809,17 +796,17 @@ h1, .h2-landing, .h2-landing-02, .headline-primary, .headline-primary--grouped {
   letter-spacing: normal;
   line-height: 1.5; }
   @media (min-width: 769px) {
-    h1, .h2-landing, .h2-landing-02, .headline-primary, .headline-primary--grouped {
+    h1, .headline-secondary {
       font-size: 1.5em;
       line-height: 1.5; } }
 
-h2, .h1-landing-02, .headline-secondary, .headline-secondary--grouped {
+h2, .headline-primary {
   font-size: 42px;
   font-weight: 300;
   margin: 0;
   line-height: 1.0952380952; }
   @media (min-width: 769px) {
-    h2, .h1-landing-02, .headline-secondary, .headline-secondary--grouped {
+    h2, .headline-primary {
       font-size: 72px;
       font-weight: 200; } }
 
@@ -885,11 +872,7 @@ h2, .h1-landing-02, .headline-secondary, .headline-secondary--grouped {
       margin-bottom: 2.5em; } }
 
 .headline-primary {
-  margin-bottom: 1.6666666667em; }
-  .headline-primary--grouped {
-    margin-bottom: 0; }
-.headline-secondary {
-  margin-bottom: 0.9166666667em; }
+  text-align: center; }
 
 .form__label {
   display: block;
@@ -1040,27 +1023,3 @@ h2, .h1-landing-02, .headline-secondary, .headline-secondary--grouped {
     height: 0;
     margin: 0;
     line-height: 0; } }
-
-.theme__poly .grid__col--12 {
-  background-color: #DEF4E5; }
-
-.theme__poly .grid__col--8 {
-  background-color: #DCE0F2; }
-
-.theme__poly .grid__col--7 {
-  background-color: #DCF0EF; }
-
-.theme__poly .grid__col--6 {
-  background-color: #FFE3DB; }
-
-.theme__poly .grid__col--4 {
-  background-color: #F8EDD0; }
-
-.theme__poly .grid__col--5 {
-  background-color: #EAEBEC; }
-
-.theme__poly .grid__col--2 {
-  background-color: #C5E2CE; }
-
-.theme__poly .grid__col--3 {
-  background-color: #D6EEF5; }

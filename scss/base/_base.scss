@@ -111,22 +111,22 @@ h2 {
 }
 
 // NEW CODE ---TRY TO MERGE---
-.h2-landing {
-		@extend %hdln-prim;
-		@include margin-vertical(20px, 20px);
-		
-	}
+//.h2-landing {
+//		@extend %hdln-prim;
+//		@include margin-vertical(20px, 20px);
+//		
+//	}
 
-.h2-landing-02 {
-		@extend %hdln-prim;
-		@include margin-vertical(10px, 10px);
-	}
+//.h2-landing-02 {
+//		@extend %hdln-prim;
+//		@include margin-vertical(10px, 10px);
+//	}
 
-.h1-landing-02 {
-		@extend %hdln-sec;
-		@include margin-vertical(10px, 10px);
-		text-align: center;
-	}
+//.h1-landing-02 {
+//		@extend %hdln-sec;
+//		@include margin-vertical(10px, 10px);
+//		text-align: center;
+//	}
 // NEW CODE ---TRY TO MERGE---
 
 
@@ -220,7 +220,8 @@ a {
 p {
 //		color: $color-light;
 
-	@include margin-vertical(10px, 10px);
+	//@include margin-vertical(10px, 10px);
+	@extend %margin-vertical-10x10;
 	@include font-s-w(18px, $font-weight--medium);
 
 	line-height: (28px/16px);
@@ -246,7 +247,8 @@ blockquote {
 
 // NEW CODE ---CHECK THIS IS DRY---
 .byline {
-	@include margin-vertical(10px, 10px);
+	//@include margin-vertical(10px, 10px);
+	@extend %margin-vertical-10x10;
 	@include font-s-w(14px, $font-weight--medium);
 	color: $grey;
 	}
