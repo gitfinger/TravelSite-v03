@@ -2,7 +2,11 @@
 // Grid [[[NEAT EXPERIMENT]]]
 // ==========================================================================
 
-
+.grid-wide {
+	@extend %clearfix;
+	@extend .centered;
+	width: 100%;
+}
 
 
 .test-container {

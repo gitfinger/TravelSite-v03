@@ -20,6 +20,20 @@
 			border: 1px solid #f00;
 		}
 	}
+//	&-primary {
+//		
+//		background: $color-accent;
+//		padding: em(3px) em(10px);
+//		margin: em(3px) 0; 
+//		
+//		& a {
+//		color: $white;
+//		}
+//		
+//		&:hover {
+//		color: $white;
+//		}
+//	}
 
 }
 
@@ -27,6 +41,8 @@
 
 
 
+
+	// NEW CODE ---CHECK THIS IS DRY---
 //.panel-primary {
 //		
 //		background: $color-accent;
@@ -44,6 +60,34 @@
 
 
 
+	// NEW CODE ---CHECK THIS IS DRY---
+.footer-primary {
+
+
+		display: inline-block;
+		margin-right: em(5px);
+		font-size: em(18px);
+		
+
+///FORMERLY PANEL PRIMARY - CAN THIS GET DRIED?///
+		background: $color-accent;
+		padding: em(3px) em(10px);
+		margin: em(3px) 0; 
+		
+		& a {
+		color: $white;
+		}
+		
+		&:hover {
+		color: $white;
+		}
+///FORMERLY PANEL PRIMARY - CAN THIS GET DRIED?///
+
+
+
+	}
+
+
 
 
 
@@ -53,6 +97,15 @@
 
 .sharing-header {
 	color: palette(grey, dark);
+//	background: none;
+//	max-width: none;
+//	margin-bottom: 50px;
+	//padding {
+	//		top: 20px;
+	//		left: 5px;
+	//		right: 5px; 
+	//		bottom: 20px;
+	//	}
 //	@extend %panel-padding;
 	
 }
@@ -81,8 +134,11 @@
 // NEW CODE ---CHECK THIS IS DRY---
 .splash {
   text-align: left;
+  //background: url(../img/bk02.jpg) $white;
   padding-top: 10px;
   height: auto;
+  
+ // @include bk-splash;
 
    @include mq(medium) {
 	 
@@ -98,28 +154,63 @@
 
 
 
+
+
+
+
 .splash-home {
-    background: url(../img/header-01a.jpg) $white;
-    padding: 0 0 30px 0;
+  text-align: center;
+  background: url(../img/header-01a.jpg) $white;
+  padding: 30px 0;
 
-    h1, h2 { 
-      color: $white;
-    }
+  h1, h2 { 
+  color: $white;
+  }
 
-    @include bk-splash;
-    padding-top: 0px;
-    height: auto;
-    @include mq(medium) {
-	     padding-bottom: 90px;
 
-      } 
-    @include mq(large) {
-	     padding-bottom: 170px;
+  	height: 100%;
+	background-position: center center;
+	//background-position: fixed no-repeat bottom right;
+	background-size: cover;
+	//background-attachment: fixed;
+	position: relative;
 
-      } 
+  @include bk-splash;
+
+@include mq(medium) {
+	  padding: 90px 0;
+ 
+    } 
+@include mq(large) {
+	  padding: 170px 0;
+ 
+    } 
+
  }
 
-splash-landing {
+.splash-home {
+  	text-align: left;
+  
+//background: url(http://placehold.it/800x800/bbb/eee/&text=Background) $grey;
+ 
+  	@include bk-splash;
+	padding-top: 0px;
+  	height: auto;
+   @include mq(medium) {
+	 padding-top: 0px;
+	 }
+ }
+
+
+ //@include mq(medium) {
+//	height: auto;
+//
+//   } 
+ 
+
+//Landing Splash Spacing
+
+.landingsplash {
 		@include margin-vertical(20px, 50px);
 	
 		
@@ -128,9 +219,6 @@ splash-landing {
 	
     } 
 }
- 
-
-
 
 
 
@@ -171,42 +259,22 @@ p.list-panel:last-child {
 
 
 
-	// NEW CODE ---CHECK THIS IS DRY---
-.footer-primary {
-
-
-		display: inline-block;
-		margin-right: em(5px);
-		font-size: em(18px);
-		
-
-///FORMERLY PANEL PRIMARY - CAN THIS GET DRIED?///
-		background: $color-accent;
-		padding: em(3px) em(10px);
-		margin: em(3px) 0; 
-		
-		& a {
-		color: $white;
-		}
-		
-		&:hover {
-		color: $white;
-		}
-///FORMERLY PANEL PRIMARY - CAN THIS GET DRIED?///
-
-
-
-	}
-
-
 
 
 
 .footer-nav {
 	float:none;
-	@include mq(medium) {
-		float:right;
-	}
+//	padding-top: em(30px);
+//	display: inline-block;
+
+//	text-align: left;
+//	padding-right: em(30px);
+//border: 1px solid #f00;
+
+		@include mq(medium) {
+//			padding-top: em(30px);
+			float:right;
+		}
 
 }
 
@@ -216,10 +284,14 @@ p.list-panel:last-child {
 
 	padding-top: em(30px);
 	display: inline-block;
+//	width: 100%;
 	text-align: left;
 	padding-right: em(30px);
-	@include mq(medium) {
-		padding-top: em(30px);
+//border: 1px solid #f00;
+
+		@include mq(medium) {
+			padding-top: em(30px);
+	
 		}
 
 }
@@ -229,8 +301,18 @@ p.list-panel:last-child {
 
 
 
+
+
+
+
+
+
+
 .adspace-03 {
+	//@extend .grid-wide;
 	padding: 10px 0;
+//	background-color: palette(grey, xx-light);
+//	margin: 20px 0 10px 0;
 	margin: auto;
 	max-width: 100%;
 	//.ad {
@@ -276,7 +358,8 @@ p.list-panel:last-child {
 			h4 {
 				font-size: em(20px);
 			}
-		}	    	
+		}
+	    	
 		
 	}
 
