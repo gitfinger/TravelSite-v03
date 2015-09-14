@@ -2,14 +2,6 @@
 // Base Styles
 // ==========================================================================
 
-//$susy: (
-//  columns: 12,
-//  container: 1200px,
-//  gutters: 1/4,
-// global-box-sizing: border-box,
-// debug: (image: show)
-//);
-
 
 
 * {
@@ -75,16 +67,16 @@ header {
 
 // NEW CODE ---CHECK THIS IS DRY---
 
-.full {
-	height: 100%;
-	background: {
-		position: center center;
-		size: cover;
-		attachment: fixed;
-	}
-
-	position: relative;
-}
+//.full {
+//	height: 100%;
+//	background: {
+//		position: center center;
+//		size: cover;
+//		attachment: fixed;
+//	}
+//
+//	position: relative;
+//}
 
 
 // NEW CODE ---CHECK THIS IS DRY---
@@ -110,59 +102,19 @@ h2 {
 
 }
 
-// NEW CODE ---TRY TO MERGE---
-//.h2-landing {
-//		@extend %hdln-prim;
-//		@include margin-vertical(20px, 20px);
-//		
-//	}
-
-//.h2-landing-02 {
-//		@extend %hdln-prim;
-//		@include margin-vertical(10px, 10px);
-//	}
-
-//.h1-landing-02 {
-//		@extend %hdln-sec;
-//		@include margin-vertical(10px, 10px);
-//		text-align: center;
-//	}
-// NEW CODE ---TRY TO MERGE---
-
 
 
 h3 {
-	@include margin-vertical(10px, 5px);
-	@include font-s-w(20px, $font-weight--bold);
-
-	color: $color-dark;
-
-	@include mq(medium) {
-		font: {
-		size: em(26px);
-		}
-	}
-	
+	@extend %hdln-tri;
 }
-
 
 
 
 
 h4 {
-	@include margin-vertical(0px, 5px);
-	@include font-s-w(18px, $font-weight--bold);
-	
-	color: $color-dark;
-
-	@include mq(medium) {
-		font {
-			size: em(24px);
-		}
-		
-	}	
-
+	@extend %hdln-quad;
 }
+
 
 
 
@@ -246,19 +198,33 @@ blockquote {
 
 
 // NEW CODE ---CHECK THIS IS DRY---
-.byline {
-	//@include margin-vertical(10px, 10px);
-	@extend %margin-vertical-10x10;
+
+
+%byline {
 	@include font-s-w(14px, $font-weight--medium);
 	color: $grey;
 	}
 
-.byline-02 {
-	@include margin-vertical(10px, 15px);
-	@include font-s-w(14px, $font-weight--medium);
-	color: $grey;
+
+
+.byline {
+	@extend %byline;
+	@extend %margin-vertical-10x10;
+
+	&-02 {
+		@extend %byline;
+		@include margin-vertical(10px, 15px);
 	}
-// NEW CODE ---CHECK THIS IS DRY---
+
+}
+
+
+
+
+
+
+
+
 
 
 
@@ -279,7 +245,7 @@ li {
 
 // NEW CODE ---CHECK THIS IS DRY---
 .list-divider {
-	padding: 1px 0 0 0;
+	padding: em(1px) 0 0 0;
 	background: palette(grey, x-light);
 	border: none;
 	}
@@ -329,7 +295,7 @@ img {
 input, 
 textarea {
 	display: block;
-	padding: 15px;
+	padding: em(15px);
 	width: 100%; 
 	outline: 0;
 	border: 0;
@@ -353,13 +319,12 @@ button {
 
 footer {
     background: palette(grey, xx-light);
-	padding-top: 20px;
+	padding-top: em(20px);
 	height: auto;
 	@include bk-splash;
 	font-size: $base__font-size - 3;
-
+	.div {
+		@include margin-vertical(20px, 20px);
+	}
 }
 
-footer.div {
-	@include margin-vertical(20px, 20px);
-}

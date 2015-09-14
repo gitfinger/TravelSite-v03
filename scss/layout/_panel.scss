@@ -5,23 +5,23 @@
 
 
 
-.panel {
-
-	@extend %panel-default;
-	@include m(centered) {
-		@extend %panel-default;
-		@extend %center-align;
-	}
-	@include m(padded) {
-		@extend %panel-padding;
-		@include m(centered) {
-			@extend %center-align;
-			@extend %panel-padding;
-			border: 1px solid #f00;
-		}
-	}
-
-}
+//.panel {
+//
+//	@extend %panel-default;
+//	@include m(centered) {
+//		@extend %panel-default;
+//		@extend %center-align;
+//	}
+//	@include m(padded) {
+//		@extend %panel-padding;
+//		@include m(centered) {
+//			@extend %center-align;
+////			@extend %panel-padding;
+//			border: 1px solid #f00;
+//		}
+//	}
+//
+//}
 
 
 
@@ -51,24 +51,24 @@
 
 	// NEW CODE ---CHECK THIS IS DRY---
 
-.sharing-header {
-	color: palette(grey, dark);
-//	@extend %panel-padding;
+//.sharing-header {
+//	color: palette(grey, dark);
+////	@extend %panel-padding;
 	
-}
+//}
 
-.sharing {
-	margin: 0px 0 40px 0; 	
-	float: right;
-	a {
-	border-bottom: none;
-	}
-}
+//.sharing {
+//	margin: 0px 0 40px 0; 	
+//	float: right;
+//	a {
+//	border-bottom: none;
+//	}
+//}
 
-.sharing-item {
-	display: inline;
-	vertical-align: middle;
-}
+//.sharing-item {
+//	display: inline;
+//	vertical-align: middle;
+//}
 	// NEW CODE ---CHECK THIS IS DRY---
 
 
@@ -78,57 +78,150 @@
 
 
 
-// NEW CODE ---CHECK THIS IS DRY---
-.splash {
-  text-align: left;
-  padding-top: 10px;
-  height: auto;
 
-   @include mq(medium) {
-	 
-  	padding-top: 100px;
+
+
+.sharing {
+	margin-bottom: em(40px);
+	float: right;
+	a {
+	border-bottom: none;
+	}
+	&-header {
+	color: palette(grey, dark);
+//	@extend %panel-padding;
+	
+}
+
+	&-item {
+	display: inline;
+	vertical-align: middle;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//.splash {
+//  //text-align: left;
+//  padding-top: em(10px);
+//  //height: auto;
+  
+//  @include mq(medium) {
+//  	padding-top: em(100px);
+//    } 
+
+
+//    &-home {
+//    background: url(../img/header-01a.jpg) $white;
+//    padding {
+// //   	top: 0;
+// //   	right: 0;
+//    	bottom: em(30px);
+// //   	left: 0;
+//    }
+//    h1, h2 { 
+//      color: $white;
+//    }
+
+//    @include bk-splash;
+////    padding-top: 0;
+////    height: auto;
+//    @include mq(medium) {
+//       padding-bottom: em(90px);
+//      } 
+
+//    @include mq(large) {
+//       padding-bottom: em(170px);
+//    } 
+// }
+
+//  	&-landing {
+//    @include margin-vertical(20px, 50px);
+    
+//    @include mq(medium) {
+//      @include margin-vertical(120px, 0px);
+//    } 
+//}
  
+
+// }
+
+
+
+
+
+
+
+
+
+
+.splash {
+  padding-top: em(10px);
+  @include mq(medium) {
+  	padding-top: em(100px);
     } 
 
- 	
- }
+    &-home {
+      background: url(../img/header-01a.jpg) $white;
+      padding {
+    	   bottom: em(30px);
+      }
 
+      h1, h2 { 
+        color: $white;
+      }
 
+      @include bk-splash;
+      @include mq(medium) {
+         padding-bottom: em(90px);
+      } 
 
-
-
-
-.splash-home {
-    background: url(../img/header-01a.jpg) $white;
-    padding: 0 0 30px 0;
-
-    h1, h2 { 
-      color: $white;
+      @include mq(large) {
+          padding-bottom: em(170px);
+      } 
     }
 
-    @include bk-splash;
-    padding-top: 0px;
-    height: auto;
-    @include mq(medium) {
-	     padding-bottom: 90px;
+  	&-landing {
+        @include margin-vertical(20px, 50px);
+    
+        @include mq(medium) {
+            @include margin-vertical(120px, 0px);
+        } 
+    }
+ 
 
-      } 
-    @include mq(large) {
-	     padding-bottom: 170px;
-
-      } 
  }
 
-splash-landing {
-		@include margin-vertical(20px, 50px);
-	
-		
-		@include mq(medium) {
-			@include margin-vertical(120px, 0px);
-	
-    } 
-}
- 
+
+
+
+
+
+
 
 
 
@@ -160,67 +253,68 @@ p.list-panel:last-child {
 
 
 
-// NEW CODE ---CHECK THIS IS DRY---
+// ---Currently redundant, but retained in HTML---// 
+//--in case headers need specific styling.---//
 
-//---Consider this as desktop-needs refactoring for mobile---
-.home-panel {	
-	padding: 0px 0;
-}
-// NEW CODE ---CHECK THIS IS DRY---
+//.home-panel {	
+//	padding: 0px 0;
+//}
+
+// ---Currently redundant, but retained in HTML---// 
+//--in case headers need specific styling.---//
 
 
 
 
 	// NEW CODE ---CHECK THIS IS DRY---
-.footer-primary {
+.footer {
 
 
-		display: inline-block;
-		margin-right: em(5px);
-		font-size: em(18px);
+//	&-primary {
+//		display: inline-block;
+//		margin-right: em(5px);
+//		font-size: em(18px);
 		
 
 ///FORMERLY PANEL PRIMARY - CAN THIS GET DRIED?///
-		background: $color-accent;
-		padding: em(3px) em(10px);
-		margin: em(3px) 0; 
+//		background: $color-accent;
+//		padding: em(3px) em(10px);
+//		margin: em(3px) 0; 
 		
-		& a {
-		color: $white;
-		}
+//		& a {
+//		color: $white;
+//		}
 		
-		&:hover {
-		color: $white;
-		}
+//		&:hover {
+//		color: $white;
+//		}
 ///FORMERLY PANEL PRIMARY - CAN THIS GET DRIED?///
 
+//	}
 
 
+
+
+	&-nav {
+		float:none;
+		@include mq(medium) {
+			float:right;
+		}
 	}
 
 
 
-
-
-.footer-nav {
-	float:none;
-	@include mq(medium) {
-		float:right;
-	}
-
-}
-
-
-
-.footer-links {
-
-	padding-top: em(30px);
-	display: inline-block;
-	text-align: left;
-	padding-right: em(30px);
-	@include mq(medium) {
+	&-links {
 		padding-top: em(30px);
-		}
+		display: inline-block;
+		text-align: left;
+		padding-right: em(30px);
+		@include mq(medium) {
+			//padding-top: em(30px);
+			}
+}
+
+
 
 }
 
@@ -229,9 +323,13 @@ p.list-panel:last-child {
 
 
 
-.adspace-03 {
-	padding: 10px 0;
-	margin: auto;
+
+.adspace {
+	padding {
+		top: em(50px);
+		bottom: em(50px);
+
+	};	margin: auto;
 	max-width: 100%;
 	//.ad {
 	//	margin: auto;

@@ -64,8 +64,6 @@
 
 
 
-
-
 // --- ACTIVE CURRENT STATE MAIN MENU + NAV---
 %nav-item-on-current {
   @extend %nav-item-on;
@@ -121,14 +119,55 @@
 
 
 
-%hdln-ter {
+%hdln-tri {
+  @include margin-vertical(10px, 5px);
+  @include font-s-w(20px, $font-weight--bold);
 
-  @include font-s-w(18px, $font-weight--medium);
-  @include margin-vertical(4px, 1px);
- 
-  line-height: em(33px, 30px);
+  color: $color-dark;
+
+  @include mq(medium) {
+    font: {
+    size: em(26px);
+    }
+  }
+  
+}
+
+
+
+
+
+
+
+%hdln-quad {
+  @include margin-vertical(0px, 5px);
+  @include font-s-w(18px, $font-weight--bold);
+  
+  color: $color-dark;
+
+  @include mq(medium) {
+    font {
+      size: em(24px);
+    }
+    
+  } 
 
 }
+
+
+
+
+
+
+
+//%hdln-ter {
+
+//  @include font-s-w(18px, $font-weight--medium);
+//  @include margin-vertical(4px, 1px);
+ 
+// line-height: em(33px, 30px);
+
+//}
 
 
 

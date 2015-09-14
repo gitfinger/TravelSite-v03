@@ -9,7 +9,7 @@
 }
 
 
-.test-container {
+.container {
 	@include outer-container();
 		@include mq(medium) {
 				@include outer-container();
@@ -18,7 +18,7 @@
 }
 
 
-.test-cols {
+.cols {
 	@include span-columns(12);
 	@include pad(0px 10px default);
 	//@include shift (0 of 12);
@@ -35,7 +35,7 @@
 
 
 
-.test-cols-half {
+.cols-half {
 	@include span-columns(12);
 	@include pad(0px 10px default);
 	//@include shift (0 of 12);
@@ -52,7 +52,7 @@
 
 
 
-.test-cols-ads {
+.cols-ads {
 	text-align: center;
 	@include span-columns(12);
 	@include pad(0px 0px default);
@@ -64,7 +64,7 @@
 
 
 
-.test-cols-splash {
+.cols-splash {
 	@include span-columns(12);
 	@include pad(0px 40px default);
 	//@include shift (0 of 12);
@@ -84,18 +84,11 @@
 
 
 
-.test-cols-footer-01 {
-	//border: 1px solid #f00;
+.cols-footer-01 {
 	@include span-columns(12);
-	//@include pad(0px 10px default);
-	//@include shift (0 of 12);
 
 	@include mq(medium) {
-	 
   		@include span-columns(4);
-  		//@include pad(0px 0px default);
-		//@include shift (1 of 12);
- 
     }
 
 
@@ -103,21 +96,14 @@
 
 
 
-.test-cols-footer-02 {
-	//border: 1px solid #f00;
+.cols-footer-02 {
 	@include span-columns(12);
 	@include pad(0px 10px default);
-	//@include shift (0 of 12);
 
 	@include mq(medium) {
-	 
   		@include span-columns(8);
-  		//@include omega;
   		@include pad(0px 0px default);
-		//@include shift (4 of 12);
- 
     }
-
 
 }
 
