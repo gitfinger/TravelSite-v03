@@ -292,6 +292,9 @@ p {
       font-size: 22px;
       font-weight: 300;
       line-height: 1.5; } }
+  p.smallprint {
+    font-size: 10px;
+    font-weight: 300; }
 
 blockquote {
   font-size: 20px;
