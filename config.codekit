@@ -107,6 +107,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/ad-mozambique-300x50.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3202,
+		"inputAbbreviatedPath": "\/img\/ad-mozambique-300x50.jpg",
+		"outputAbbreviatedPath": "\/img\/ad-mozambique-300x50.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/ad-mozambique-728x90.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 4537,
+		"inputAbbreviatedPath": "\/img\/ad-mozambique-728x90.jpg",
+		"outputAbbreviatedPath": "\/img\/ad-mozambique-728x90.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/arrow-down.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -655,13 +677,156 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/pic-summary.jpg": {
+	"\/img\/pic-mozambique-header.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 196158,
+		"inputAbbreviatedPath": "\/img\/pic-mozambique-header.jpg",
+		"outputAbbreviatedPath": "\/img\/pic-mozambique-header.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pic-mozambique-iboairport-10.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 418604,
+		"inputAbbreviatedPath": "\/img\/pic-mozambique-iboairport-10.jpg",
+		"outputAbbreviatedPath": "\/img\/pic-mozambique-iboairport-10.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pic-mozambique-ibosunset-11.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 392342,
+		"inputAbbreviatedPath": "\/img\/pic-mozambique-ibosunset-11.jpg",
+		"outputAbbreviatedPath": "\/img\/pic-mozambique-ibosunset-11.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pic-mozambique-ilhademozambique-08.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 334059,
+		"inputAbbreviatedPath": "\/img\/pic-mozambique-ilhademozambique-08.jpg",
+		"outputAbbreviatedPath": "\/img\/pic-mozambique-ilhademozambique-08.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pic-mozambique-macutihuts-09.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 519223,
+		"inputAbbreviatedPath": "\/img\/pic-mozambique-macutihuts-09.jpg",
+		"outputAbbreviatedPath": "\/img\/pic-mozambique-macutihuts-09.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pic-mozambique-quirimbas-01.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 126011,
+		"inputAbbreviatedPath": "\/img\/pic-mozambique-quirimbas-01.jpg",
+		"outputAbbreviatedPath": "\/img\/pic-mozambique-quirimbas-01.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pic-mozambique-quissico-04.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 391024,
+		"inputAbbreviatedPath": "\/img\/pic-mozambique-quissico-04.jpg",
+		"outputAbbreviatedPath": "\/img\/pic-mozambique-quissico-04.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pic-mozambique-roadsidemarket-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 704249,
+		"inputAbbreviatedPath": "\/img\/pic-mozambique-roadsidemarket-02.jpg",
+		"outputAbbreviatedPath": "\/img\/pic-mozambique-roadsidemarket-02.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pic-mozambique-tofobeach2-05.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 365138,
+		"inputAbbreviatedPath": "\/img\/pic-mozambique-tofobeach2-05.jpg",
+		"outputAbbreviatedPath": "\/img\/pic-mozambique-tofobeach2-05.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pic-mozambique-vilankulobazaruto-06.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 140932,
+		"inputAbbreviatedPath": "\/img\/pic-mozambique-vilankulobazaruto-06.jpg",
+		"outputAbbreviatedPath": "\/img\/pic-mozambique-vilankulobazaruto-06.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pic-mozambique-women+child-07.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 461967,
+		"inputAbbreviatedPath": "\/img\/pic-mozambique-women+child-07.jpg",
+		"outputAbbreviatedPath": "\/img\/pic-mozambique-women+child-07.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pic-mozambique-xiaxia-03.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 197827,
+		"inputAbbreviatedPath": "\/img\/pic-mozambique-xiaxia-03.jpg",
+		"outputAbbreviatedPath": "\/img\/pic-mozambique-xiaxia-03.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pic-summary-haiti.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 143619,
-		"inputAbbreviatedPath": "\/img\/pic-summary.jpg",
-		"outputAbbreviatedPath": "\/img\/pic-summary.jpg",
+		"inputAbbreviatedPath": "\/img\/pic-summary-haiti.jpg",
+		"outputAbbreviatedPath": "\/img\/pic-summary-haiti.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pic-summary-mozambique.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 143619,
+		"inputAbbreviatedPath": "\/img\/pic-summary-mozambique.jpg",
+		"outputAbbreviatedPath": "\/img\/pic-summary-mozambique.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -673,6 +838,17 @@
 		"initialSize": 59563,
 		"inputAbbreviatedPath": "\/img\/profilepic-generic.jpg",
 		"outputAbbreviatedPath": "\/img\/profilepic-generic.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/profilepic-simonbuckby-02.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 115897,
+		"inputAbbreviatedPath": "\/img\/profilepic-simonbuckby-02.jpg",
+		"outputAbbreviatedPath": "\/img\/profilepic-simonbuckby-02.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

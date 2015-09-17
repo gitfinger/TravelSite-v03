@@ -123,7 +123,7 @@
   @include margin-vertical(10px, 5px);
   @include font-s-w(20px, $font-weight--bold);
 
-  color: $color-dark;
+  //color: $color-dark;
 
   @include mq(medium) {
     font: {

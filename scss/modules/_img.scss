@@ -12,9 +12,12 @@
 		
 		margin-top: em(5px);
 		margin-bottom: em(5px);
+
 		@include mq(medium) {
 			margin-top: em(20px);
 			margin-bottom: em(30px);
+max-width: 100%;
+max-height: 100%
 		}
 	}
 	@include m(summary) {

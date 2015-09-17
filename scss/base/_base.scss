@@ -106,6 +106,13 @@ h2 {
 
 h3 {
 	@extend %hdln-tri;
+	@include text-colors();
+	
+	&.article-special01 {	
+		text-align: center;
+		@include margin-vertical(-3px, -3px);
+		@include text-colors($fountain-blue);
+	}
 }
 
 
@@ -181,8 +188,20 @@ p {
 		@include font-s-w(22px, $font-weight--light);
 		line-height: (33px/22px);
 	 }
+	 @include mq(large) {
+		@include font-s-w(26px, $font-weight--light);
+		line-height: (39px/26px);
+	 }
 	 &.smallprint {
 	 	@include font-s-w(10px, $font-weight--light);
+	 }  
+
+	 &.summary {
+	 	@include margin-vertical(0px, 40px);
+	 } 
+
+	 &.citation {
+	 	@include font-s-w(15px, $font-weight--light);
 	 }   
 }
 

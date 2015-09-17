@@ -33,6 +33,11 @@
       @content;
     }
   }
+  @else if $break == "exlarge" {
+    @media (min-width: $brkpoint--exlg) {
+      @content;
+    }
+  }
 
   
 
@@ -147,4 +152,14 @@
     size: $size;
     weight: $weight;
   }
+}
+
+
+
+
+//Header Colours
+
+@mixin text-colors($text-color: $color-dark) {
+  color: $text-color;
+
 }

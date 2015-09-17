@@ -6,6 +6,25 @@ html {
 *, *::after, *::before {
   box-sizing: inherit; }
 
+body:before {
+  background-image: -webkit-linear-gradient(left, transparent 0, #cce 0, #cce 6.1721527019%, transparent 6.1721527019%, transparent 8.5298042998%, #cce 8.5298042998%, #cce 14.7019570017%, transparent 14.7019570017%, transparent 17.0596085997%, #cce 17.0596085997%, #cce 23.2317613015%, transparent 23.2317613015%, transparent 25.5894128995%, #cce 25.5894128995%, #cce 31.7615656014%, transparent 31.7615656014%, transparent 34.1192171993%, #cce 34.1192171993%, #cce 40.2913699012%, transparent 40.2913699012%, transparent 42.6490214991%, #cce 42.6490214991%, #cce 48.821174201%, transparent 48.821174201%, transparent 51.178825799%, #cce 51.178825799%, #cce 57.3509785009%, transparent 57.3509785009%, transparent 59.7086300988%, #cce 59.7086300988%, #cce 65.8807828007%, transparent 65.8807828007%, transparent 68.2384343986%, #cce 68.2384343986%, #cce 74.4105871005%, transparent 74.4105871005%, transparent 76.7682386985%, #cce 76.7682386985%, #cce 82.9403914003%, transparent 82.9403914003%, transparent 85.2980429983%, #cce 85.2980429983%, #cce 91.4701957002%, transparent 91.4701957002%, transparent 93.8278472981%, #cce 93.8278472981%, #cce 100.0%, transparent 100.0%);
+  background-image: -moz-linear-gradient(left, transparent 0, #cce 0, #cce 6.1721527019%, transparent 6.1721527019%, transparent 8.5298042998%, #cce 8.5298042998%, #cce 14.7019570017%, transparent 14.7019570017%, transparent 17.0596085997%, #cce 17.0596085997%, #cce 23.2317613015%, transparent 23.2317613015%, transparent 25.5894128995%, #cce 25.5894128995%, #cce 31.7615656014%, transparent 31.7615656014%, transparent 34.1192171993%, #cce 34.1192171993%, #cce 40.2913699012%, transparent 40.2913699012%, transparent 42.6490214991%, #cce 42.6490214991%, #cce 48.821174201%, transparent 48.821174201%, transparent 51.178825799%, #cce 51.178825799%, #cce 57.3509785009%, transparent 57.3509785009%, transparent 59.7086300988%, #cce 59.7086300988%, #cce 65.8807828007%, transparent 65.8807828007%, transparent 68.2384343986%, #cce 68.2384343986%, #cce 74.4105871005%, transparent 74.4105871005%, transparent 76.7682386985%, #cce 76.7682386985%, #cce 82.9403914003%, transparent 82.9403914003%, transparent 85.2980429983%, #cce 85.2980429983%, #cce 91.4701957002%, transparent 91.4701957002%, transparent 93.8278472981%, #cce 93.8278472981%, #cce 100.0%, transparent 100.0%);
+  background-image: -ms-linear-gradient(left, transparent 0, #cce 0, #cce 6.1721527019%, transparent 6.1721527019%, transparent 8.5298042998%, #cce 8.5298042998%, #cce 14.7019570017%, transparent 14.7019570017%, transparent 17.0596085997%, #cce 17.0596085997%, #cce 23.2317613015%, transparent 23.2317613015%, transparent 25.5894128995%, #cce 25.5894128995%, #cce 31.7615656014%, transparent 31.7615656014%, transparent 34.1192171993%, #cce 34.1192171993%, #cce 40.2913699012%, transparent 40.2913699012%, transparent 42.6490214991%, #cce 42.6490214991%, #cce 48.821174201%, transparent 48.821174201%, transparent 51.178825799%, #cce 51.178825799%, #cce 57.3509785009%, transparent 57.3509785009%, transparent 59.7086300988%, #cce 59.7086300988%, #cce 65.8807828007%, transparent 65.8807828007%, transparent 68.2384343986%, #cce 68.2384343986%, #cce 74.4105871005%, transparent 74.4105871005%, transparent 76.7682386985%, #cce 76.7682386985%, #cce 82.9403914003%, transparent 82.9403914003%, transparent 85.2980429983%, #cce 85.2980429983%, #cce 91.4701957002%, transparent 91.4701957002%, transparent 93.8278472981%, #cce 93.8278472981%, #cce 100.0%, transparent 100.0%);
+  background-image: -o-linear-gradient(left, transparent 0, #cce 0, #cce 6.1721527019%, transparent 6.1721527019%, transparent 8.5298042998%, #cce 8.5298042998%, #cce 14.7019570017%, transparent 14.7019570017%, transparent 17.0596085997%, #cce 17.0596085997%, #cce 23.2317613015%, transparent 23.2317613015%, transparent 25.5894128995%, #cce 25.5894128995%, #cce 31.7615656014%, transparent 31.7615656014%, transparent 34.1192171993%, #cce 34.1192171993%, #cce 40.2913699012%, transparent 40.2913699012%, transparent 42.6490214991%, #cce 42.6490214991%, #cce 48.821174201%, transparent 48.821174201%, transparent 51.178825799%, #cce 51.178825799%, #cce 57.3509785009%, transparent 57.3509785009%, transparent 59.7086300988%, #cce 59.7086300988%, #cce 65.8807828007%, transparent 65.8807828007%, transparent 68.2384343986%, #cce 68.2384343986%, #cce 74.4105871005%, transparent 74.4105871005%, transparent 76.7682386985%, #cce 76.7682386985%, #cce 82.9403914003%, transparent 82.9403914003%, transparent 85.2980429983%, #cce 85.2980429983%, #cce 91.4701957002%, transparent 91.4701957002%, transparent 93.8278472981%, #cce 93.8278472981%, #cce 100.0%, transparent 100.0%);
+  background-image: linear-gradient(to left, transparent 0, #cce 0, #cce 6.1721527019%, transparent 6.1721527019%, transparent 8.5298042998%, #cce 8.5298042998%, #cce 14.7019570017%, transparent 14.7019570017%, transparent 17.0596085997%, #cce 17.0596085997%, #cce 23.2317613015%, transparent 23.2317613015%, transparent 25.5894128995%, #cce 25.5894128995%, #cce 31.7615656014%, transparent 31.7615656014%, transparent 34.1192171993%, #cce 34.1192171993%, #cce 40.2913699012%, transparent 40.2913699012%, transparent 42.6490214991%, #cce 42.6490214991%, #cce 48.821174201%, transparent 48.821174201%, transparent 51.178825799%, #cce 51.178825799%, #cce 57.3509785009%, transparent 57.3509785009%, transparent 59.7086300988%, #cce 59.7086300988%, #cce 65.8807828007%, transparent 65.8807828007%, transparent 68.2384343986%, #cce 68.2384343986%, #cce 74.4105871005%, transparent 74.4105871005%, transparent 76.7682386985%, #cce 76.7682386985%, #cce 82.9403914003%, transparent 82.9403914003%, transparent 85.2980429983%, #cce 85.2980429983%, #cce 91.4701957002%, transparent 91.4701957002%, transparent 93.8278472981%, #cce 93.8278472981%, #cce 100.0%, transparent 100.0%);
+  content: "";
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  margin: 0 auto;
+  max-width: 65.625em;
+  opacity: 0.4;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  width: 100%;
+  z-index: 9999; }
+
 .grid-wide:after {
   content: "";
   display: table;
@@ -247,6 +266,14 @@ header {
       /* Fallback */
       background-color: rgba(255, 255, 255, 0.9); } }
 
+h3 {
+  color: #0b0b0b; }
+  h3.article-special01 {
+    text-align: center;
+    margin-top: -0.1875em;
+    margin-bottom: -0.1875em;
+    color: #01a4fd; }
+
 h5 {
   margin-top: 0.75em;
   margin-bottom: 0.3125em;
@@ -292,8 +319,19 @@ p {
       font-size: 22px;
       font-weight: 300;
       line-height: 1.5; } }
+  @media (min-width: 1100px) {
+    p {
+      font-size: 26px;
+      font-weight: 300;
+      line-height: 1.5; } }
   p.smallprint {
     font-size: 10px;
+    font-weight: 300; }
+  p.summary {
+    margin-top: 0em;
+    margin-bottom: 2.5em; }
+  p.citation {
+    font-size: 15px;
     font-weight: 300; }
 
 blockquote {
@@ -506,8 +544,18 @@ p.list-panel:last-child {
       display: block;
       margin-right: 2.3576515979%;
       width: 82.9403914003%;
-      padding: 0px 0px 2.3576515979%;
+      padding: 0px 0px;
       margin-left: 8.5298042998%; }
+      .cols:last-child {
+        margin-right: 0; } }
+  @media (min-width: 1100px) {
+    .cols {
+      float: left;
+      display: block;
+      margin-right: 2.3576515979%;
+      width: 100%;
+      padding: 0px 0px;
+      margin-left: 0%; }
       .cols:last-child {
         margin-right: 0; } }
 
@@ -651,8 +699,7 @@ h3 {
   margin-top: 0.625em;
   margin-bottom: 0.3125em;
   font-size: 20px;
-  font-weight: 700;
-  color: #0b0b0b; }
+  font-weight: 700; }
   @media (min-width: 769px) {
     h3 {
       font-size: 1.625em; } }
@@ -704,7 +751,9 @@ h4 {
   @media (min-width: 769px) {
     .img--article {
       margin-top: 1.25em;
-      margin-bottom: 1.875em; } }
+      margin-bottom: 1.875em;
+      max-width: 100%;
+      max-height: 100%; } }
 .img--summary {
   margin-top: 0.625em;
   margin-bottom: 0em; }

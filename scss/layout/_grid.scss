@@ -26,9 +26,16 @@
 	@include mq(medium) {
 	 
   		@include span-columns(10);
-  		@include pad(0px 0px default);
+  		@include pad(0px 0px);
 		
 		@include shift (1 of 12);
+    }
+	@include mq(large) {
+	 
+  		@include span-columns(12);
+  		@include pad(0px 0px);
+		
+		@include shift (0 of 12);
     }
 }
 
