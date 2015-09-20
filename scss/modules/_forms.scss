@@ -24,7 +24,8 @@ border-radius: none;
 
 		&:focus {	
 			border-color: $color-focus;
-			
+			background: palette(fountain-blue, xx-light); 
+
 		}
 	}
 

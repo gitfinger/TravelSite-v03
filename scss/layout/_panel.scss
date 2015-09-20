@@ -181,14 +181,17 @@
 
 .splash {
   padding-top: em(10px);
+
   @include mq(medium) {
   	padding-top: em(100px);
+
     } 
 
     &-home {
-      background: url(../img/header-01a.jpg) $white;
+      background: url(../img/header-01a-mobile.jpg) $white;
       padding {
-    	   bottom: em(30px);
+    	   bottom: em(50px);
+
       }
 
       h1, h2 { 
@@ -197,16 +200,23 @@
 
       @include bk-splash;
       @include mq(medium) {
+      background: url(../img/header-01a.jpg) $white;
+@include bk-splash;
          padding-bottom: em(90px);
       } 
-
       @include mq(large) {
           padding-bottom: em(170px);
       } 
+      @include mq(exlarge) {
+           		background: url(../img/header-01a-xxlarge.jpg);
+          padding-bottom: em(250px);
+          @include bk-splash;
+      } 
+
     }
 
   	&-landing {
-        @include margin-vertical(20px, 50px);
+        @include margin-vertical(60px, 120px);
     
         @include mq(medium) {
             @include margin-vertical(120px, 0px);

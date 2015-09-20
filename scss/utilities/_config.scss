@@ -71,6 +71,8 @@ $color-palettes: (
 		dark     : darken($black, 10%)
 	),
 	fountain-blue: (
+		xx-light : lighten($fountain-blue, 43%),
+		x-light  : lighten($fountain-blue, 35%),
 		light    : lighten($fountain-blue, 10%),
 		base     : $fountain-blue,
 		dark     : darken($fountain-blue, 10%)
