@@ -71,8 +71,8 @@ $color-palettes: (
 		dark     : darken($black, 10%)
 	),
 	fountain-blue: (
-		xx-light : lighten($fountain-blue, 43%),
-		x-light  : lighten($fountain-blue, 35%),
+		xx-light : lighten($fountain-blue, 47%),
+		x-light  : lighten($fountain-blue, 50%),
 		light    : lighten($fountain-blue, 10%),
 		base     : $fountain-blue,
 		dark     : darken($fountain-blue, 10%)
@@ -120,6 +120,7 @@ $g-cont-max-w   : 1050px !default;
 // Breakpoints
 
 $brkpoint--sm    : 1px;
+//-extra breakpoint if needed: $brkpoint--ms 	 : 500px;
 $brkpoint--md    : 768px;
 $brkpoint--in	 : 890px;
 $brkpoint--lg    : 1100px;

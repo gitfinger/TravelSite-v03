@@ -85,17 +85,17 @@
 
 %hdln-prim {
 
-  @include font-s-w(20px, $font-weight--ultra-bold);
+  @include font-s-w(24px, $font-weight--ultra-bold);
   @include margin-vertical(4px, 4px);
 
   font-family: $font-family--primary;
   letter-spacing: normal;
-  line-height: (30px/20px);
+  line-height: (36px/24px);
  
  
  @include mq(medium) {
-  font-size: em(24px);
-  line-height: (36px/24px);
+  font-size: em(28px);
+  line-height: (35px/28px);
  }
 
 }
@@ -120,14 +120,14 @@
 
 
 %hdln-tri {
-  @include margin-vertical(10px, 5px);
+  @include margin-vertical(15px, 5px);
   @include font-s-w(20px, $font-weight--bold);
 
   //color: $color-dark;
 
   @include mq(medium) {
     font: {
-    size: em(26px);
+      size: em(26px);
     }
   }
   

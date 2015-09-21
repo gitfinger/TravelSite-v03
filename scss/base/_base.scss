@@ -113,6 +113,11 @@ h3 {
 		@include margin-vertical(-3px, -3px);
 		@include text-colors($fountain-blue);
 	}
+
+	&.author {	
+		@include margin-vertical(5px, 0px);
+		
+	}
 }
 
 
@@ -147,13 +152,6 @@ h6 {
 }
 
  
-hr.list-divider {
-	@include margin-vertical(15px, 15px);
-	@include mq(medium) {
-		@include margin-vertical(30px, 30px);
-	}
-	
-}
 
 
 
@@ -266,11 +264,22 @@ li {
 
 
 // NEW CODE ---CHECK THIS IS DRY---
-.list-divider {
+hr.list-divider {
 	padding: em(1px) 0 0 0;
 	background: palette(grey, x-light);
 	border: none;
+	@include margin-vertical(30px, 20px);
 	}
+
+
+
+//hr.list-divider {
+//	@include margin-vertical(15px, 15px);
+//	@include mq(medium) {
+//		@include margin-vertical(30px, 30px);
+//	}
+//	
+//}
 // NEW CODE ---CHECK THIS IS DRY---
 
 
@@ -321,11 +330,14 @@ textarea {
 	width: 100%; 
 	outline: 0;
 	border: 0;
+	transition: $trns_duration;
+
 }
 
 input:focus, 
 textarea:focus {
 	transition: $trns_duration;
+
 }
 
 // Button
@@ -342,11 +354,14 @@ button {
 footer {
     background: palette(grey, xx-light);
 	padding-top: em(20px);
-	height: auto;
-	@include bk-splash;
-	font-size: $base__font-size - 3;
+	//height: auto;
+	//@include bk-splash;
+	//font-size: $base__font-size - 3;
 	.div {
 		@include margin-vertical(20px, 20px);
 	}
 }
+
+
+
 

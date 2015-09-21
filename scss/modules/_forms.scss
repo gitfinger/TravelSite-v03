@@ -24,7 +24,8 @@ border-radius: none;
 
 		&:focus {	
 			border-color: $color-focus;
-			background: palette(fountain-blue, xx-light); 
+			background: palette(fountain-blue, xx-light);
+			//color: $color-dark; 
 
 		}
 	}
@@ -34,3 +35,10 @@ border-radius: none;
 		background: $color-primary;
 	}
 }
+
+
+
+//.search {
+//	background: $color-light url(../img/icon-search.png) left no-repeat;
+//   padding-left: 50px;
+//} 

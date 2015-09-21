@@ -10,15 +10,17 @@
 
 
 .container {
+//border: 0px solid #f00;
 	@include outer-container();
-		@include mq(medium) {
-				@include outer-container();
-
-		}
+		//@include mq(medium) {
+		//		@include outer-container();
+//
+		//}
 }
 
 
 .cols {
+//border: 1px solid #f00;
 	@include span-columns(12);
 	@include pad(0px 10px default);
 	//@include shift (0 of 12);
@@ -43,6 +45,7 @@
 
 
 .cols-half {
+//border: 1px solid #f00;
 	@include span-columns(12);
 	@include pad(0px 10px default);
 	//@include shift (0 of 12);
@@ -54,7 +57,79 @@
 		
 		//@include shift (1 of 12);
     }
+    &-center {
+    @include span-columns(6);
+    text-align: center;
+    @include pad(0px 10px );
+    }
+
+    &-submenu-1 {	
+   //border: 1px solid #f00;
+
+  		@include span-columns(6);
+  		@include pad(0px 10px default);
+
+
+	@include mq(medium) {
+	 
+  		@include span-columns(5);
+		@include shift (1 of 12);
+  		@include pad(0px 0px);
+
+    }
+	@include mq(large) {
+	 
+  		@include span-columns(4);
+		
+		@include shift (0 of 12);
+    }
+
+
+
+
+
+	}
+
+
+
+	
+    &-submenu-2 {	
+   //border: 1px solid #f00;
+
+  		@include span-columns(6);
+  		@include pad(0px 10px default);
+
+
+	@include mq(medium) {
+	 
+  		@include span-columns(5);
+  		@include pad(0px 0px);
+		
+    }
+	@include mq(large) {
+	 
+  		@include span-columns(8);
+		
+		@include shift (0 of 12);
+    }
+
+
+
+
+
+	}
+
+
+
+
+
+
+
 }
+
+
+
+
 
 
 
@@ -92,10 +167,20 @@
 
 
 .cols-footer-01 {
+//border: 1px solid #f00;
 	@include span-columns(12);
-
+	@include pad(0px 10px);
 	@include mq(medium) {
-  		@include span-columns(4);
+  		@include span-columns(3);
+
+		@include shift (1 of 12);
+
+    }
+
+	@include mq(large) {
+ 		@include span-columns(4);
+		@include shift (0 of 12);
+
     }
 
 
@@ -104,16 +189,14 @@
 
 
 .cols-footer-02 {
+//border: 1px solid #f00;
 	@include span-columns(12);
-	@include pad(0px 10px default);
+	@include pad(0px 10px);
 
 	@include mq(medium) {
   		@include span-columns(8);
-  		@include pad(0px 0px default);
+  		//@include pad(14px 0px);
     }
 
 }
-
-
-
 

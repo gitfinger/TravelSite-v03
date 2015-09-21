@@ -481,6 +481,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icon-search-64x64.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1120,
+		"inputAbbreviatedPath": "\/img\/icon-search-64x64.png",
+		"outputAbbreviatedPath": "\/img\/icon-search-64x64.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/icon-search.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 941,
+		"inputAbbreviatedPath": "\/img\/icon-search.png",
+		"outputAbbreviatedPath": "\/img\/icon-search.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icon-twitter-white-big.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -842,11 +864,22 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/pic-summary-haiti.jpg": {
+	"\/img\/pic-summary-haiti-1000pxwide.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"initialSize": 143619,
+		"inputAbbreviatedPath": "\/img\/pic-summary-haiti-1000pxwide.jpg",
+		"outputAbbreviatedPath": "\/img\/pic-summary-haiti-1000pxwide.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/pic-summary-haiti.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117499,
 		"inputAbbreviatedPath": "\/img\/pic-summary-haiti.jpg",
 		"outputAbbreviatedPath": "\/img\/pic-summary-haiti.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1063,6 +1096,24 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/reviews-haiti.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/reviews-kerala.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/reviews-kerala.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/reviews-loc.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/reviews-loc.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

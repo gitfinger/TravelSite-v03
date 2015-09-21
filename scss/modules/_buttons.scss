@@ -9,6 +9,7 @@
 [class^="btn--"] {
   @extend %btn;
   @extend %center-align;
+  cursor: pointer;
   margin-bottom: em(20px, 14px); 
   @include mq(small) {
   	width: 100%;

@@ -13,8 +13,19 @@
 		//@include font-s-w(36px, $font-weight--light);
 
         @include mq(medium) {
-           ///MEDIA QUERY HERE///
+		//@include font-s-w(50px, $font-weight--thin);
+
         } 
+
+       @include mq(large) {
+		@include font-s-w(100px, $font-weight--thin);
+
+        } 
+
+        @include mq(exlarge) {
+           @include font-s-w(100px, $font-weight--thin);
+        } 
+
 
 
 //		margin-bottom: em(70px, 42px);

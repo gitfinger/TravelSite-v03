@@ -216,11 +216,15 @@
     }
 
   	&-landing {
-        @include margin-vertical(60px, 120px);
+        @include margin-vertical(90px, 120px);
     
         @include mq(medium) {
             @include margin-vertical(120px, 0px);
         } 
+
+//        @include mq(large) {
+//           @include margin-vertical(130px, 0px);
+//       } 
     }
  
 
@@ -316,11 +320,12 @@ p.list-panel:last-child {
 
 	&-links {
 		padding-top: em(30px);
+		padding-bottom: em(14px);
 		display: inline-block;
 		text-align: left;
-		padding-right: em(30px);
+		padding-right: em(20px);
 		@include mq(medium) {
-			//padding-top: em(30px);
+				padding-top: em(25px);
 			}
 }
 
@@ -329,6 +334,37 @@ p.list-panel:last-child {
 }
 
 
+
+////---MERGE WITH FOOTER---///
+.sub {
+
+	&-nav {
+		float:right;
+		
+	}
+
+	&-links {
+		padding-top: em(15px);
+		padding-bottom: em(0px);
+		display: inline-block;
+		//text-align: left;
+		padding-left: em(20px);
+		
+
+		&-active {
+		padding-top: em(15px);
+		padding-bottom: em(0px);
+		display: inline-block;
+		//text-align: left;
+		padding-left: em(20px);
+		a {
+		color: $color-primary;
+		}
+		}
+
+	}
+
+}
 
 
 
@@ -389,3 +425,27 @@ p.list-panel:last-child {
 	}
 
 
+
+
+
+
+.listpic {
+	float: left;
+
+		@include mq(medium) {
+			float: none;
+			margin: auto;
+			width:100%
+			}
+
+}
+.listtext{
+	float: right;
+
+		@include mq(medium) {
+			float: none;
+			margin: auto;
+			width:100%
+			}
+
+}
