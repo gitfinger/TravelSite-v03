@@ -319,13 +319,14 @@ p.list-panel:last-child {
 
 
 	&-links {
-		padding-top: em(30px);
-		padding-bottom: em(14px);
+		padding-top: em(20px);
+		padding-bottom: em(20px);
 		display: inline-block;
 		text-align: left;
-		padding-right: em(20px);
+		padding-right: em(15px);
 		@include mq(medium) {
-				padding-top: em(25px);
+				padding-top: em(20px);
+				padding-right: em(30px);
 			}
 }
 

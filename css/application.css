@@ -458,14 +458,15 @@ p.list-panel:last-child {
     .footer-nav {
       float: right; } }
 .footer-links {
-  padding-top: 1.875em;
-  padding-bottom: 0.875em;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
   display: inline-block;
   text-align: left;
-  padding-right: 1.25em; }
+  padding-right: 0.9375em; }
   @media (min-width: 769px) {
     .footer-links {
-      padding-top: 1.5625em; } }
+      padding-top: 1.25em;
+      padding-right: 1.875em; } }
 
 .sub-nav {
   float: right; }
