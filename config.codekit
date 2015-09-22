@@ -666,6 +666,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/map-haiti.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74041,
+		"inputAbbreviatedPath": "\/img\/map-haiti.png",
+		"outputAbbreviatedPath": "\/img\/map-haiti.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/map-mozambique.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/map-mozambique.png",
+		"outputAbbreviatedPath": "\/img\/map-mozambique.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/pic-haiti-CitadelleLafarriere.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1157,17 +1179,6 @@
 		"initialSize": 1195,
 		"inputAbbreviatedPath": "\/img\/social-yellow\/icon-youtube.png",
 		"outputAbbreviatedPath": "\/img\/social-yellow\/icon-youtube.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/travelsite-maps-haiti.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 74041,
-		"inputAbbreviatedPath": "\/img\/travelsite-maps-haiti.png",
-		"outputAbbreviatedPath": "\/img\/travelsite-maps-haiti.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
