@@ -462,7 +462,7 @@ p.list-panel:last-child {
   padding-bottom: 1.25em;
   display: inline-block;
   text-align: left;
-  padding-right: 0.9375em; }
+  padding-right: 0.625em; }
   @media (min-width: 769px) {
     .footer-links {
       padding-top: 1.25em;
