@@ -216,7 +216,7 @@
     }
 
   	&-landing {
-        @include margin-vertical(90px, 120px);
+        @include margin-vertical(50px, 100px);
     
         @include mq(medium) {
             @include margin-vertical(120px, 0px);
@@ -356,7 +356,7 @@ p.list-panel:last-child {
 		padding-bottom: em(0px);
 		display: inline-block;
 		//text-align: left;
-		padding-left: em(20px);
+		padding-left: em(10px);
 		a {
 		color: $color-primary;
 		}

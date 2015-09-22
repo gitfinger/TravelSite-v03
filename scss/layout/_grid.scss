@@ -64,9 +64,9 @@
     }
 
     &-submenu-1 {	
-   //border: 1px solid #f00;
+//border: 1px solid #f00;
 
-  		@include span-columns(6);
+  		@include span-columns(5);
   		@include pad(0px 10px default);
 
 
@@ -94,9 +94,9 @@
 
 	
     &-submenu-2 {	
-   //border: 1px solid #f00;
+//border: 1px solid #f00;
 
-  		@include span-columns(6);
+  		@include span-columns(7);
   		@include pad(0px 10px default);
 
 
