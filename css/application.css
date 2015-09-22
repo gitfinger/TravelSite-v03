@@ -473,12 +473,12 @@ p.list-panel:last-child {
   padding-top: 0.9375em;
   padding-bottom: 0em;
   display: inline-block;
-  padding-left: 1.25em; }
+  padding-left: 0.9375em; }
   .sub-links-active {
     padding-top: 0.9375em;
     padding-bottom: 0em;
     display: inline-block;
-    padding-left: 1.25em; }
+    padding-left: 0.9375em; }
     .sub-links-active a {
       color: #01a4fd; }
 
