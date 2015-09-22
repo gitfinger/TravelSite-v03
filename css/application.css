@@ -438,8 +438,8 @@ footer {
         -o-background-size: cover;
         -moz-background-size: cover; } }
   .splash-landing {
-    margin-top: 3.125em;
-    margin-bottom: 6.25em; }
+    margin-top: 1.5625em;
+    margin-bottom: 6.5625em; }
     @media (min-width: 769px) {
       .splash-landing {
         margin-top: 7.5em;
@@ -864,7 +864,9 @@ h4 {
       margin-bottom: 2.5em; } }
 
 .headline-primary {
-  text-align: center; }
+  text-align: center;
+  font-size: 46px;
+  font-weight: 400; }
   @media (min-width: 1100px) {
     .headline-primary {
       font-size: 100px;

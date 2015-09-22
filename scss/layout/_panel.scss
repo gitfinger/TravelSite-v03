@@ -216,7 +216,7 @@
     }
 
   	&-landing {
-        @include margin-vertical(50px, 100px);
+        @include margin-vertical(25px, 105px);
     
         @include mq(medium) {
             @include margin-vertical(120px, 0px);
