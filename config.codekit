@@ -677,6 +677,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/map-kerala.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 96359,
+		"inputAbbreviatedPath": "\/img\/map-kerala.png",
+		"outputAbbreviatedPath": "\/img\/map-kerala.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/map-mozambique.png": {
 		"fileType": 32768,
 		"ignore": 0,
