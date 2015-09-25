@@ -2,18 +2,28 @@
 // Placeholders
 // ==========================================================================
 
-%panel-default {
-	padding-top: em(30px);
-	@include mq(medium) {
-		padding-bottom: em(20px);
-	}
-}
 
-%panel-padding {
-	padding-top: em(34px);
-	@include mq(medium) {
-		padding-top: em(80px);
-		padding-bottom: em(34px);
-	}
-}
+//%panel-default {
+//	padding-top: em(30px);
+//	@include mq(medium) {
+//		padding-bottom: em(20px);
+//	}
+//}
 
+//%panel-padding {
+//	padding-top: em(34px);
+//	@include mq(medium) {
+//		padding-top: em(80px);
+//		padding-bottom: em(34px);
+//	}
+//}
+
+%link-padding {
+		padding-top: em(15px);
+		padding-bottom: em(0px);
+		display: inline-block;
+		padding-left: em(15px);
+		}
+
+
+		

@@ -5,76 +5,6 @@
 
 
 
-//.panel {
-//
-//	@extend %panel-default;
-//	@include m(centered) {
-//		@extend %panel-default;
-//		@extend %center-align;
-//	}
-//	@include m(padded) {
-//		@extend %panel-padding;
-//		@include m(centered) {
-//			@extend %center-align;
-////			@extend %panel-padding;
-//			border: 1px solid #f00;
-//		}
-//	}
-//
-//}
-
-
-
-
-
-//.panel-primary {
-//		
-//		background: $color-accent;
-//		padding: em(3px) em(10px);
-//		margin: em(3px) 0; 
-//		
-//		& a {
-//		color: $white;
-//		}
-//		
-//		&:hover {
-//		color: $white;
-//		}
-//	}
-
-
-
-
-
-
-
-
-	// NEW CODE ---CHECK THIS IS DRY---
-
-//.sharing-header {
-//	color: palette(grey, dark);
-////	@extend %panel-padding;
-	
-//}
-
-//.sharing {
-//	margin: 0px 0 40px 0; 	
-//	float: right;
-//	a {
-//	border-bottom: none;
-//	}
-//}
-
-//.sharing-item {
-//	display: inline;
-//	vertical-align: middle;
-//}
-	// NEW CODE ---CHECK THIS IS DRY---
-
-
-
-
-
 
 
 
@@ -85,90 +15,22 @@
 	margin-bottom: em(40px);
 	float: right;
 	a {
-	border-bottom: none;
+		border-bottom: none;
 	}
+
 	&-header {
-	color: palette(grey, dark);
-//	@extend %panel-padding;
-	
-}
+		color: palette(grey, dark);
+	}
 
 	&-item {
-	display: inline;
-	vertical-align: middle;
+		display: inline;
+		vertical-align: middle;
+	}
 }
 
 
-}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-//.splash {
-//  //text-align: left;
-//  padding-top: em(10px);
-//  //height: auto;
-  
-//  @include mq(medium) {
-//  	padding-top: em(100px);
-//    } 
-
-
-//    &-home {
-//    background: url(../img/header-01a.jpg) $white;
-//    padding {
-// //   	top: 0;
-// //   	right: 0;
-//    	bottom: em(30px);
-// //   	left: 0;
-//    }
-//    h1, h2 { 
-//      color: $white;
-//    }
-
-//    @include bk-splash;
-////    padding-top: 0;
-////    height: auto;
-//    @include mq(medium) {
-//       padding-bottom: em(90px);
-//      } 
-
-//    @include mq(large) {
-//       padding-bottom: em(170px);
-//    } 
-// }
-
-//  	&-landing {
-//    @include margin-vertical(20px, 50px);
-    
-//    @include mq(medium) {
-//      @include margin-vertical(120px, 0px);
-//    } 
-//}
- 
-
-// }
 
 
 
@@ -180,51 +42,45 @@
 
 
 .splash {
-  padding-top: em(10px);
-
-  @include mq(medium) {
+ 	padding-top: em(10px);
+  	@include mq(medium) {
   	padding-top: em(100px);
-
     } 
 
     &-home {
-      background: url(../img/header-01a-mobile.jpg) $white;
-      padding {
-    	   bottom: em(50px);
+    	background: url(../img/header-01a-mobile.jpg) $white;
+      	padding {
+      	bottom: em(50px);
+    }
 
-      }
-
-      h1, h2 { 
+    h1, h2 { 
         color: $white;
-      }
+    }
 
-      @include bk-splash;
-      @include mq(medium) {
-      background: url(../img/header-01a.jpg) $white;
-@include bk-splash;
-         padding-bottom: em(90px);
-      } 
-      @include mq(large) {
-          padding-bottom: em(170px);
-      } 
-      @include mq(exlarge) {
-           		background: url(../img/header-01a-xxlarge.jpg);
-          padding-bottom: em(250px);
-          @include bk-splash;
-      } 
+		@include bk-splash;
+		@include mq(medium) {
+			background: url(../img/header-01a.jpg) $white;
+			@include bk-splash;
+        	padding-bottom: em(90px);
+		} 
+
+		@include mq(large) {
+			padding-bottom: em(170px);
+		}
+
+		@include mq(exlarge) {
+			background: url(../img/header-01a-xxlarge.jpg);
+			padding-bottom: em(250px);
+			@include bk-splash;
+		}	 
 
     }
 
-  	&-landing {
+	&-landing {
         @include margin-vertical(25px, 105px);
-    
         @include mq(medium) {
             @include margin-vertical(120px, 0px);
         } 
-
-//        @include mq(large) {
-//           @include margin-vertical(130px, 0px);
-//       } 
     }
  
 
@@ -244,10 +100,9 @@
 
 
 
-  // NEW CODE ---CHECK THIS IS DRY---
+
 
 .list-panel {
-	
 	font-size: $base__font-size - 2;
 	padding: 0 7px;
 }
@@ -280,35 +135,8 @@ p.list-panel:last-child {
 
 
 
-	// NEW CODE ---CHECK THIS IS DRY---
+
 .footer {
-
-
-//	&-primary {
-//		display: inline-block;
-//		margin-right: em(5px);
-//		font-size: em(18px);
-		
-
-///FORMERLY PANEL PRIMARY - CAN THIS GET DRIED?///
-//		background: $color-accent;
-//		padding: em(3px) em(10px);
-//		margin: em(3px) 0; 
-		
-//		& a {
-//		color: $white;
-//		}
-		
-//		&:hover {
-//		color: $white;
-//		}
-///FORMERLY PANEL PRIMARY - CAN THIS GET DRIED?///
-
-//	}
-
-
-
-
 	&-nav {
 		float:none;
 		@include mq(medium) {
@@ -316,58 +144,38 @@ p.list-panel:last-child {
 		}
 	}
 
-
-
 	&-links {
 		padding-top: em(20px);
+		padding-right: em(10px);
 		padding-bottom: em(20px);
 		display: inline-block;
 		text-align: left;
-		padding-right: em(10px);
+
 		@include mq(medium) {
 				padding-top: em(20px);
 				padding-right: em(30px);
-			}
+		}
+	}
 }
 
 
 
-}
-
-
-
-////---MERGE WITH FOOTER---///
 .sub {
-
 	&-nav {
 		float:right;
-		
 	}
-
 	&-links {
-		padding-top: em(15px);
-		padding-bottom: em(0px);
-		display: inline-block;
-		//text-align: left;
-		padding-left: em(15px);
-		
-
+		@extend %link-padding;
 		&-active {
-		padding-top: em(15px);
-		padding-bottom: em(0px);
-		display: inline-block;
-		//text-align: left;
-		padding-left: em(15px);
-		a {
-		color: $color-primary;
-		}
+			@extend %link-padding;
+			a {
+				color: $color-primary;
+			}
 		}
 
 	}
 
 }
-
-
 
 
 
@@ -375,36 +183,31 @@ p.list-panel:last-child {
 	padding {
 		top: em(50px);
 		bottom: em(50px);
+	};	
 
-	};	margin: auto;
+	margin: auto;
 	max-width: 100%;
-	//.ad {
-	//	margin: auto;
-	//	text-align: center;
-	//}
-
 }
 
 
 .ad-is-collapsed-mobile {
 	display: none;
 	@include mq(medium) {
-	display: inline;
+		display: inline;
 	}
-
 }
 
 
 .ad-is-displayed-mobile {
 	display: inline;
 	@include mq(medium) {
-	display: none;
+		display: none;
 	}
 	
 }
 
 
-	// NEW CODE ---CHECK THIS IS DRY---
+	
 .boxout {
 		
 		background-color: #f0f0f0;
@@ -421,12 +224,8 @@ p.list-panel:last-child {
 			h4 {
 				font-size: em(20px);
 			}
-		}	    	
-		
-	}
-
-
-
+		}	    		
+}
 
 
 

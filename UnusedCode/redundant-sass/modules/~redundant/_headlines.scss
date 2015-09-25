@@ -1,0 +1,54 @@
+// ==========================================================================
+// Headlines
+// ==========================================================================
+
+.headline {
+
+	&-primary {
+//		@extend %hdln-prim;
+		@extend %hdln-sec;
+		//@include margin-vertical(0px, 0px);
+		@extend %margin-vertical-10x10;
+		text-align: center;
+		@include font-s-w(46px, $font-weight--medium);
+
+        @include mq(medium) {
+		//@include font-s-w(50px, $font-weight--thin);
+
+        } 
+
+       @include mq(large) {
+		@include font-s-w(100px, $font-weight--thin);
+
+        } 
+
+        @include mq(exlarge) {
+           @include font-s-w(100px, $font-weight--thin);
+        } 
+
+
+
+//		margin-bottom: em(70px, 42px);
+//
+//		@include m(grouped) {
+//			@extend %hdln-prim;
+//			margin-bottom: 0;
+//		}
+	}
+//
+	&-secondary {
+		@extend %hdln-prim;
+		//@include margin-vertical(10px, 10px);
+		@extend %margin-vertical-10x10;
+
+//		@extend %hdln-sec;
+//		margin-bottom: em(22px, 24px);
+//
+//		@include m(grouped) {
+//			@extend %hdln-sec;
+//			//margin-top: em(10px, 24px);
+//	 		//margin-bottom: em(54px, 24px);
+//		}		
+	}
+//
+}

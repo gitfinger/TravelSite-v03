@@ -10,47 +10,42 @@
 }
 
 
-// ---CHECK HEADER IS DRY---
-// NEW CODE ---CHECK THIS IS DRY---
+
 
 html, body {
 	height: 100%;
 }
 
-// ---CHECK HEADER IS DRY---
-// NEW CODE ---CHECK THIS IS DRY---
+
+
+
 
 
 
 body {
 	color: palette(grey, xx-dark);
-
   	font: {
   		size: $base__font-size;
   		family: $font-family--primary;
   	}
-
   	line-height: ($base__line/$base__font-size);
 }
 
 
-// ---CHECK HEADER IS DRY---
-// NEW CODE ---CHECK THIS IS DRY---
-header {
 
+
+
+header {
 		position: relative;
-		background-color: rgba(255,255,255,0.94);
+		background: #f5f5f5; /* Fallback */
+		background-color: rgba(255,255,255,0.90);
 		z-index: 0;
 		width: 100%;
-		box-shadow: 0px 2px 3px $color-shadow;
+		@include shadow(0, 2px, 3px, $color-shadow);
 
 		@include mq(medium) {
-
 			position: fixed;	
 			z-index: 1;
-			background: rgb(245, 245, 245); /* Fallback */
-			background-color: rgba(255,255,255,0.90);
-
 		}
 }
 
@@ -59,27 +54,6 @@ header {
 
 
 	
-
-
-
-
-
-
-// NEW CODE ---CHECK THIS IS DRY---
-
-//.full {
-//	height: 100%;
-//	background: {
-//		position: center center;
-//		size: cover;
-//		attachment: fixed;
-//	}
-//
-//	position: relative;
-//}
-
-
-// NEW CODE ---CHECK THIS IS DRY---
 
 
 
@@ -108,17 +82,23 @@ h3 {
 	@extend %hdln-tri;
 	@include text-colors();
 	
-	&.article-special01 {	
+
+
+}
+
+
+///h3 class - Put into a text include///
+
+.article-special01 {	
 		text-align: center;
 		@include margin-vertical(-3px, -3px);
 		@include text-colors($fountain-blue);
 	}
 
-	&.author {	
-		@include margin-vertical(5px, 0px);
-		
+.author {	
+		@include margin-vertical(5px, 0px);	
 	}
-}
+///h3 - Put into a text include///
 
 
 
@@ -161,12 +141,10 @@ a {
 	border-bottom: 1px $color-dark dotted;
 	font-weight: $font-weight--bold;
 	&:hover {
-	color: $color-dark;
-	//text-decoration: underline;
-	border-bottom: none;
+		color: $color-dark;
+		border-bottom: none;
 	
 	}
-
 
 }
 
@@ -176,8 +154,6 @@ a {
 
 p {
 
-
-	//@include margin-vertical(10px, 10px);
 	@extend %margin-vertical-10x10;
 	@include font-s-w(18px, $font-weight--medium);
 
@@ -189,19 +165,26 @@ p {
 	 @include mq(large) {
 		@include font-s-w(26px, $font-weight--light);
 		line-height: (39px/26px);
-	 }
-	 &.smallprint {
-	 	@include font-s-w(10px, $font-weight--light);
-	 }  
-
-	 &.summary {
-	 	@include margin-vertical(0px, 40px);
-	 } 
-
-	 &.citation {
-	 	@include font-s-w(15px, $font-weight--light);
 	 }   
 }
+
+///p class - Put into a text include///
+ .smallprint {
+ 	@include font-s-w(10px, $font-weight--light);
+ }  
+
+ .summary {
+ 	@include margin-vertical(0px, 40px);
+ } 
+
+ .citation {
+ 	@include font-s-w(15px, $font-weight--light);
+ }
+///p class - Put into a text include///
+
+
+
+
 
 blockquote {
 	@include mq(medium) {
@@ -220,10 +203,7 @@ blockquote {
 // NEW CODE ---CHECK THIS IS DRY---
 
 
-%byline {
-	@include font-s-w(14px, $font-weight--medium);
-	color: $grey;
-	}
+
 
 
 
@@ -298,19 +278,22 @@ img {
 }
 
 
-.img-mouseover:hover {
-	opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
+.img-mouseover {
+	@extend %transglobal;
+
+	&:hover {
+		@include opacity(0.3);
+	}
 }
 
 
-.search-button {
-	float: left;
-}
-
-.search-bar {
-	float: right;
-}
+//.search-button {
+//	float: left;
+//}
+//
+//.search-bar {
+//	float: right;
+//}
 
 .descretionary-margin {
 	@include margin-vertical(0px, 15px);
@@ -330,13 +313,16 @@ textarea {
 	width: 100%; 
 	outline: 0;
 	border: 0;
-	transition: $trns_duration;
+
+	@extend %transglobal;
+
 
 }
 
 input:focus, 
 textarea:focus {
-	transition: $trns_duration;
+
+	@extend %transglobal;
 
 }
 
@@ -354,9 +340,6 @@ button {
 footer {
     background: palette(grey, xx-light);
 	padding-top: em(20px);
-	//height: auto;
-	//@include bk-splash;
-	//font-size: $base__font-size - 3;
 	.div {
 		@include margin-vertical(20px, 20px);
 	}

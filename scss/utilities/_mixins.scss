@@ -149,7 +149,7 @@
 
 @mixin font-s-w($size, $weight) {
   font: {
-    size: $size;
+    size: em($size);
     weight: $weight;
   }
 }
@@ -163,3 +163,41 @@
   color: $text-color;
 
 }
+
+
+
+//Dropshadow Webkit fallbacks
+
+  @mixin shadow($x, $y, $blur, $color) {
+         -webkit-box-shadow: $x $y $blur $color;
+            -moz-box-shadow: $x $y $blur $color;
+                 box-shadow: $x $y $blur $color;
+  }
+
+
+
+//Opacity fallbacks
+
+
+@mixin opacity($opacity) {
+  opacity: $opacity;
+  $opacity-ie: $opacity * 100;
+  filter: alpha(opacity=$opacity-ie); /* For IE8 and earlier */
+}
+
+
+//Transisition webkit fallbacks
+
+
+@mixin transition($property) {
+         -webkit-transition: $property $trns-duration ease;
+           -moz-transition: $property $trns-duration ease;
+             -o-transition: $property $trns-duration ease;
+                transition: $property $trns-duration ease;
+}
+
+
+
+  
+
+
