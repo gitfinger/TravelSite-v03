@@ -22,6 +22,34 @@ border-radius: none;
 		color: palette(black, dark);
 		font-weight: $font-weight--light;
 
+
+
+
+
+		&:focus {	
+			border-color: $color-focus;
+			background: palette(fountain-blue, xx-light);
+			//color: $color-dark; 
+
+		}
+	}
+
+
+	@include e(search) {
+		display: inline-block;
+		font-size: em(18px);
+		margin-bottom: em(20px, 18px);
+		border: 3px solid $color-dark;
+border-radius: none;
+		background: $color-light;
+		color: palette(black, dark);
+		font-weight: $font-weight--light;
+
+
+
+
+
+
 		&:focus {	
 			border-color: $color-focus;
 			background: palette(fountain-blue, xx-light);
@@ -42,3 +70,37 @@ border-radius: none;
 //	background: $color-light url(../img/icon-search.png) left no-repeat;
 //   padding-left: 50px;
 //} 
+
+
+.testcontainer {
+	width: 100%;
+   height: auto;
+   overflow: hidden;
+}
+
+
+.test01 {
+	float: none; 
+    width: auto;
+    overflow: hidden;
+}
+
+.test02 {
+	width: em(60px);
+	float: right;
+}
+
+
+.search {
+
+   display:inline-block;
+   margin-right:5px;
+}
+.search-button {
+	float: left;
+	margin: em(0px);
+
+}
+.search-bar {
+	float: right;
+}

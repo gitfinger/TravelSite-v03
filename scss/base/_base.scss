@@ -287,13 +287,6 @@ img {
 }
 
 
-//.search-button {
-//	float: left;
-//}
-//
-//.search-bar {
-//	float: right;
-//}
 
 .descretionary-margin {
 	@include margin-vertical(0px, 15px);
@@ -308,7 +301,7 @@ img {
 
 input, 
 textarea {
-	display: block;
+	//display: block;
 	padding: em(15px);
 	width: 100%; 
 	outline: 0;

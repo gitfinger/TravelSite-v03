@@ -503,6 +503,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/icon-search-black.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1002,
+		"inputAbbreviatedPath": "\/img\/icon-search-black.png",
+		"outputAbbreviatedPath": "\/img\/icon-search-black.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/icon-search.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -4309,6 +4320,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/searchtest.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/searchtest.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/UnusedCode\/additional-redundant-scss\/redundant_grid-container.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -4756,6 +4776,38 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/UnusedCode\/redundant-sass\/modules\/~redundant\/~_offcanvas.scss",
 		"outputAbbreviatedPath": "\/UnusedCode\/redundant-sass\/modules\/css\/~_offcanvas.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/UnusedCode\/redundant-sass\/utilities\/_functions.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/UnusedCode\/redundant-sass\/utilities\/_functions.scss",
+		"outputAbbreviatedPath": "\/UnusedCode\/redundant-sass\/css\/_functions.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/UnusedCode\/redundant-sass\/utilities\/_mixins.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/UnusedCode\/redundant-sass\/utilities\/_mixins.scss",
+		"outputAbbreviatedPath": "\/UnusedCode\/redundant-sass\/css\/_mixins.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,

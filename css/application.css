@@ -360,7 +360,6 @@ img {
 
 input,
 textarea {
-  display: block;
   padding: 0.9375em;
   width: 100%;
   outline: 0;
@@ -720,7 +719,7 @@ p.list-panel:last-child {
   display: block;
   padding: 5px 0 0 0;
   line-height: 80px;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 10px;
   border-bottom: 4px solid transparent; }
   @media (min-width: 0.0625em) and (max-width: 48em) {
     .nav__item--current a, .nav__item a, .nav__sub a {
@@ -885,8 +884,45 @@ textarea:focus {
   .form__input:focus {
     border-color: #01a4fd;
     background: #eff9ff; }
+.form__search {
+  display: inline-block;
+  font-size: 1.125em;
+  margin-bottom: 1.1111111111em;
+  border: 3px solid #0b0b0b;
+  border-radius: none;
+  background: #fff;
+  color: black;
+  font-weight: 300; }
+  .form__search:focus {
+    border-color: #01a4fd;
+    background: #eff9ff; }
 .form__btn {
   background: #01a4fd; }
+
+.testcontainer {
+  width: 100%;
+  height: auto;
+  overflow: hidden; }
+
+.test01 {
+  float: none;
+  width: auto;
+  overflow: hidden; }
+
+.test02 {
+  width: 3.75em;
+  float: right; }
+
+.search {
+  display: inline-block;
+  margin-right: 5px; }
+
+.search-button {
+  float: left;
+  margin: 0em; }
+
+.search-bar {
+  float: right; }
 
 .btn--default {
   background-color: #01a4fd; }
