@@ -122,11 +122,8 @@ $path--rel      : "../img";
 
 // Breakpoints
 
-
-
-////CHECK THAT EMS WILL BE OKAY FOR BREAKPOINTS////
-$brkpoint--sm    : em(1px);
-$brkpoint--md    : em(768px);
-$brkpoint--in	 : em(890px);
-$brkpoint--lg    : em(1100px);
-$brkpoint--exlg  : em(1500px);
+$brkpoint--sm    : 1px;
+$brkpoint--md    : 768px;
+$brkpoint--in	 : 890px;
+$brkpoint--lg    : 1100px;
+$brkpoint--exlg  : 1500px;

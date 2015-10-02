@@ -4320,11 +4320,11 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/searchtest.html": {
+	"\/splashtest.html": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/searchtest.html",
+		"inputAbbreviatedPath": "\/splashtest.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -4783,6 +4783,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/UnusedCode\/redundant-sass\/splashtest-redundant.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/UnusedCode\/redundant-sass\/splashtest-redundant.scss",
+		"outputAbbreviatedPath": "\/UnusedCode\/css\/splashtest-redundant.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/UnusedCode\/redundant-sass\/utilities\/_functions.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -4830,6 +4846,42 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/UnusedCode\/searchtest.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/UnusedCode\/searchtest.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/UnusedCode\/searchtest~.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/UnusedCode\/searchtest~.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/UnusedCode\/splashtest.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/UnusedCode\/splashtest.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/UnusedCode\/splashtest2~.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/UnusedCode\/splashtest2~.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/write.html": {
 		"fileType": 8192,
