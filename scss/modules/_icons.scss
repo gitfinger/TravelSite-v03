@@ -3,23 +3,42 @@
 // ==========================================================================
 
 // Logo  
- 
-//.site-logo {
-
+   
 .site-logo {
-	@include img-replace("logo-small.png", 115px, 45px, inline-block);
-	margin: 20px 0 5px 15px;   /* Fallback */
-	@include img-replace("logo-small.svg", 115px, 45px, inline-block);
+	@include img-replace-logo("logo-small.png"); /* Fallback */
+	background-image: none,url("../img/logo-small.svg");
+	//@include img-replace-logo("logo-small.svg");
 	margin: 20px 0 5px 15px;
+  	@include w-h-size(115px, 45px);
+  	@extend %logo-base;
 
 
 	@include mq(medium) {
-		@include img-replace("logo.png", 350px, 60px, inline-block); margin: 10px 0 10px 10px;   /* Fallback */
-		@include img-replace("logo.svg", 350px, 60px, inline-block); margin: 10px 0 10px 10px;
+		@include img-replace-logo("logo.png"); /* Fallback */
+		background-image: none,url("../img/logo.svg");
+		//@include img-replace-logo("logo.svg"); 
+		margin: 10px 0 10px 10px;
+  		@include w-h-size(350px, 60px);
+
 		}
-	float: left;
-	border: 0;
+
+
+
+
+	&-footer {
+		@include img-replace-logo("logo-small.png"); /* Fallback */
+		background-image: none,url("../img/logo-small.svg");
+		//@include img-replace-logo("logo-small.svg");
+		@extend %logo-base;
+		@include w-h-size(115px, 45px);
+		@extend .img--summary;
+
+	}
+
+
+
 }
+
 
 
 

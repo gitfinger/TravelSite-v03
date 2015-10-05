@@ -94,6 +94,11 @@
 	display: $disp;
 }
 
+@mixin img-replace-logo($img) {
+  background-image: url('#{$path--rel}/#{$img}');
+}
+
+
 // Adjacent sibling margins
 
 @mixin doubly($margin: 1em) {
@@ -202,4 +207,11 @@
 }
   
 
+
+// Width & Height Sizing pair
+
+@mixin w-h-size($w, $h) {
+  width: $w;
+  height: $h;
+}    
 
