@@ -271,8 +271,10 @@ button {
 // Footer
 
 footer {
-    background: palette(grey, xx-light);
-	padding-top: em(20px);
+	float: left;
+	display: block;
+	width:100%;
+
 	.div {
 		@include margin-vertical(20px, 20px);
 	}

@@ -99,6 +99,9 @@
 
 
 .footer {
+
+	background: palette(grey, xx-light);
+	padding-top: em(20px);
 	&-nav {
 		float:none;
 		@include mq(medium) {

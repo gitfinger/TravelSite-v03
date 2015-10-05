@@ -342,8 +342,9 @@ button {
   outline: 0; }
 
 footer {
-  background: #ebecec;
-  padding-top: 1.25em; }
+  float: left;
+  display: block;
+  width: 100%; }
   footer .div {
     margin-top: 1.25em;
     margin-bottom: 1.25em; }
@@ -456,21 +457,24 @@ footer {
         margin-top: 7.5em;
         margin-bottom: 0em; } }
 
-.footer-nav {
-  float: none; }
-  @media (min-width: 769px) {
-    .footer-nav {
-      float: right; } }
-.footer-links {
-  padding-top: 1.25em;
-  padding-right: 0.625em;
-  padding-bottom: 1.25em;
-  display: inline-block;
-  text-align: left; }
-  @media (min-width: 769px) {
-    .footer-links {
-      padding-top: 1.25em;
-      padding-right: 1.875em; } }
+.footer {
+  background: #ebecec;
+  padding-top: 1.25em; }
+  .footer-nav {
+    float: none; }
+    @media (min-width: 769px) {
+      .footer-nav {
+        float: right; } }
+  .footer-links {
+    padding-top: 1.25em;
+    padding-right: 0.625em;
+    padding-bottom: 1.25em;
+    display: inline-block;
+    text-align: left; }
+    @media (min-width: 769px) {
+      .footer-links {
+        padding-top: 1.25em;
+        padding-right: 1.875em; } }
 
 .sub-nav {
   float: right; }
