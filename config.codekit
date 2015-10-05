@@ -96,17 +96,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/ad-haiti~.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 28830,
-		"inputAbbreviatedPath": "\/img\/ad-haiti~.jpg",
-		"outputAbbreviatedPath": "\/img\/ad-haiti~.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/ad-mozambique-300x50.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -125,28 +114,6 @@
 		"initialSize": 4537,
 		"inputAbbreviatedPath": "\/img\/ad-mozambique-728x90.jpg",
 		"outputAbbreviatedPath": "\/img\/ad-mozambique-728x90.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/arrow-down.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2312,
-		"inputAbbreviatedPath": "\/img\/arrow-down.png",
-		"outputAbbreviatedPath": "\/img\/arrow-down.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/bk-01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 77154,
-		"inputAbbreviatedPath": "\/img\/bk-01.jpg",
-		"outputAbbreviatedPath": "\/img\/bk-01.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -283,72 +250,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/icon-01.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 15155,
-		"inputAbbreviatedPath": "\/img\/icon-01.png",
-		"outputAbbreviatedPath": "\/img\/icon-01.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/icon-02.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 847,
-		"inputAbbreviatedPath": "\/img\/icon-02.png",
-		"outputAbbreviatedPath": "\/img\/icon-02.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/icon-03.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 745,
-		"inputAbbreviatedPath": "\/img\/icon-03.png",
-		"outputAbbreviatedPath": "\/img\/icon-03.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/icon-04.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 934,
-		"inputAbbreviatedPath": "\/img\/icon-04.png",
-		"outputAbbreviatedPath": "\/img\/icon-04.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/icon-05.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 583,
-		"inputAbbreviatedPath": "\/img\/icon-05.png",
-		"outputAbbreviatedPath": "\/img\/icon-05.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/icon-email-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 885,
-		"inputAbbreviatedPath": "\/img\/icon-email-white.png",
-		"outputAbbreviatedPath": "\/img\/icon-email-white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/icon-email.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -360,50 +261,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/icon-facebook-big.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3105,
-		"inputAbbreviatedPath": "\/img\/icon-facebook-big.png",
-		"outputAbbreviatedPath": "\/img\/icon-facebook-big.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/icon-facebook-white-big.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3295,
-		"inputAbbreviatedPath": "\/img\/icon-facebook-white-big.png",
-		"outputAbbreviatedPath": "\/img\/icon-facebook-white-big.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/icon-facebook-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 836,
-		"inputAbbreviatedPath": "\/img\/icon-facebook-white.png",
-		"outputAbbreviatedPath": "\/img\/icon-facebook-white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/icon-facebook-yellow-big.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 3415,
-		"inputAbbreviatedPath": "\/img\/icon-facebook-yellow-big.png",
-		"outputAbbreviatedPath": "\/img\/icon-facebook-yellow-big.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/icon-facebook.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -411,83 +268,6 @@
 		"initialSize": 810,
 		"inputAbbreviatedPath": "\/img\/icon-facebook.png",
 		"outputAbbreviatedPath": "\/img\/icon-facebook.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/icon-instagram-white-big.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4338,
-		"inputAbbreviatedPath": "\/img\/icon-instagram-white-big.png",
-		"outputAbbreviatedPath": "\/img\/icon-instagram-white-big.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/icon-instagram-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 859,
-		"inputAbbreviatedPath": "\/img\/icon-instagram-white.png",
-		"outputAbbreviatedPath": "\/img\/icon-instagram-white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/icon-instagram.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 857,
-		"inputAbbreviatedPath": "\/img\/icon-instagram.png",
-		"outputAbbreviatedPath": "\/img\/icon-instagram.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/icon-linkedin-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 787,
-		"inputAbbreviatedPath": "\/img\/icon-linkedin-white.png",
-		"outputAbbreviatedPath": "\/img\/icon-linkedin-white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/icon-pinterest-white-big.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5600,
-		"inputAbbreviatedPath": "\/img\/icon-pinterest-white-big.png",
-		"outputAbbreviatedPath": "\/img\/icon-pinterest-white-big.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/icon-pinterest-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1128,
-		"inputAbbreviatedPath": "\/img\/icon-pinterest-white.png",
-		"outputAbbreviatedPath": "\/img\/icon-pinterest-white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/icon-pinterest.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1064,
-		"inputAbbreviatedPath": "\/img\/icon-pinterest.png",
-		"outputAbbreviatedPath": "\/img\/icon-pinterest.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -536,28 +316,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/icon-twitter-white-big.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4668,
-		"inputAbbreviatedPath": "\/img\/icon-twitter-white-big.png",
-		"outputAbbreviatedPath": "\/img\/icon-twitter-white-big.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/icon-twitter-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 865,
-		"inputAbbreviatedPath": "\/img\/icon-twitter-white.png",
-		"outputAbbreviatedPath": "\/img\/icon-twitter-white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/icon-twitter.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -565,248 +323,6 @@
 		"initialSize": 794,
 		"inputAbbreviatedPath": "\/img\/icon-twitter.png",
 		"outputAbbreviatedPath": "\/img\/icon-twitter.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/icon-web-big.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6033,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/icon-web-big.png",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/icon-web-big.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/icon-web.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1317,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/icon-web.png",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/icon-web.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/icon-youtube-white-big.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 5266,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/icon-youtube-white-big.png",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/icon-youtube-white-big.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/icon-youtube-white.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1058,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/icon-youtube-white.png",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/icon-youtube-white.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/icon-youtube.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1032,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/icon-youtube.png",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/icon-youtube.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/pic-haiti-ResistanceArtists-v01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 335035,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/pic-haiti-ResistanceArtists-v01.jpg",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/pic-haiti-ResistanceArtists-v01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/pic-haiti-VoodooTemple-v01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 389331,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/pic-haiti-VoodooTemple-v01.jpg",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/pic-haiti-VoodooTemple-v01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/pic-kerala-02-glidingdown-v01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 376747,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/pic-kerala-02-glidingdown-v01.jpg",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/pic-kerala-02-glidingdown-v01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/pic-kerala-03-gatheringcoconuts-v01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 377545,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/pic-kerala-03-gatheringcoconuts-v01.jpg",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/pic-kerala-03-gatheringcoconuts-v01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/pic-kerala-06-alleppeylighthouse~~.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 204269,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/pic-kerala-06-alleppeylighthouse~~.jpg",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/pic-kerala-06-alleppeylighthouse~~.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/pic-kerala-08-prawnsmasala-v01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 297044,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/pic-kerala-08-prawnsmasala-v01.jpg",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/pic-kerala-08-prawnsmasala-v01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/pic-kerala-11-pinksunsetvarkalacliff-v01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 222572,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/pic-kerala-11-pinksunsetvarkalacliff-v01.jpg",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/pic-kerala-11-pinksunsetvarkalacliff-v01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/pic-mozambique-01-quirimbas-v01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 126011,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/pic-mozambique-01-quirimbas-v01.jpg",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/pic-mozambique-01-quirimbas-v01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/pic-mozambique-02-roadsidemarket-v01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 704249,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/pic-mozambique-02-roadsidemarket-v01.jpg",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/pic-mozambique-02-roadsidemarket-v01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/pic-mozambique-03-xiaxia-v01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 197827,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/pic-mozambique-03-xiaxia-v01.jpg",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/pic-mozambique-03-xiaxia-v01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/pic-mozambique-04-quissico-v01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 391024,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/pic-mozambique-04-quissico-v01.jpg",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/pic-mozambique-04-quissico-v01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/pic-mozambique-05-tofobeach2-v01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 365138,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/pic-mozambique-05-tofobeach2-v01.jpg",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/pic-mozambique-05-tofobeach2-v01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/pic-mozambique-07-women+child-v01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 461967,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/pic-mozambique-07-women+child-v01.jpg",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/pic-mozambique-07-women+child-v01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/pic-mozambique-08-ilhademozambique-v01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 334059,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/pic-mozambique-08-ilhademozambique-v01.jpg",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/pic-mozambique-08-ilhademozambique-v01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/pic-mozambique-09-macutihuts-v01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 519223,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/pic-mozambique-09-macutihuts-v01.jpg",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/pic-mozambique-09-macutihuts-v01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/pic-mozambique-10-iboairport-v01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 418604,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/pic-mozambique-10-iboairport-v01.jpg",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/pic-mozambique-10-iboairport-v01.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/img-redundant\/pic-mozambique-11-ibosunset-v01.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 392342,
-		"inputAbbreviatedPath": "\/img\/img-redundant\/pic-mozambique-11-ibosunset-v01.jpg",
-		"outputAbbreviatedPath": "\/img\/img-redundant\/pic-mozambique-11-ibosunset-v01.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -819,28 +335,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/img\/logo-GREY-small.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1538,
-		"inputAbbreviatedPath": "\/img\/logo-GREY-small.png",
-		"outputAbbreviatedPath": "\/img\/logo-GREY-small.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/logo-GREY.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2854,
-		"inputAbbreviatedPath": "\/img\/logo-GREY.png",
-		"outputAbbreviatedPath": "\/img\/logo-GREY.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
 		},
 	"\/img\/logo-small.png": {
 		"fileType": 32768,
@@ -1311,28 +805,6 @@
 		"initialSize": 57078,
 		"inputAbbreviatedPath": "\/img\/profilepic-tamsincrimmens.jpg",
 		"outputAbbreviatedPath": "\/img\/profilepic-tamsincrimmens.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/travelsite-maps-haiti~.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 96043,
-		"inputAbbreviatedPath": "\/img\/travelsite-maps-haiti~.png",
-		"outputAbbreviatedPath": "\/img\/travelsite-maps-haiti~.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/travelsite-maps-haiti~~.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 36037,
-		"inputAbbreviatedPath": "\/img\/travelsite-maps-haiti~~.png",
-		"outputAbbreviatedPath": "\/img\/travelsite-maps-haiti~~.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
