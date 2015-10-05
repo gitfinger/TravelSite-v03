@@ -5,17 +5,17 @@
 // Logo  
  
 //.site-logo {
-//	@include img-replace("logo.svg", 115px, 45px, inline-block);
 
-
-// NEW CODE ---REPLACE WITH SVG---
 .site-logo {
-
-	@include img-replace("logo-small.png", 200px, 30px, inline-block);
+	@include img-replace("logo-small.png", 115px, 45px, inline-block);
+	margin: 20px 0 5px 15px;   /* Fallback */
+	@include img-replace("logo-small.svg", 115px, 45px, inline-block);
 	margin: 20px 0 5px 15px;
 
+
 	@include mq(medium) {
-		@include img-replace("logo.png", 350px, 60px, inline-block); margin: 10px 0 10px 10px;
+		@include img-replace("logo.png", 350px, 60px, inline-block); margin: 10px 0 10px 10px;   /* Fallback */
+		@include img-replace("logo.svg", 350px, 60px, inline-block); margin: 10px 0 10px 10px;
 		}
 	float: left;
 	border: 0;

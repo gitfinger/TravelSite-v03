@@ -5,23 +5,15 @@
 .navbar {	
 	position: relative;
 	@include mq(medium) { 
-	//	margin-top: em(5px);
 		margin-right: em(20px);
 		margin-bottom: 0;
 		display: inline-block;
-
-
-
-		// NEW CODE ---CHECK THIS IS DRY---
 		float: right;
 		text-align: right;
-		// NEW CODE ---CHECK THIS IS DRY---
-
-
 	}
-	@include mq(large) { 
-			margin-right: 0;
 
+	@include mq(large) { 
+		margin-right: 0;
 	}
 
 

@@ -6,7 +6,7 @@
 
 .nav {
 	@include margin-vertical(0px, 0px);
-	padding: 65px 0 0 0;
+	padding: em(65px) 0 0 0;
 	@include mq(medium) { 
 		padding: 0;
 	}
@@ -17,15 +17,13 @@
 			@extend %nav-item-horz;
 			a {
 				@extend %nav-item-link;
-//				@extend %nav-item-on-current;
-
 			}
 		}
+
+
 		a {
 			@extend %nav-item-link;
 			color: palette(grey);
-
-
 			&:hover {
 				@extend %nav-item-on;
 			}

@@ -20,7 +20,8 @@
   padding: 5px 0 0 0 ;
 
   line-height: 80px;
-  padding: 0px 10px ;
+  @include padding-v-h(0px, 11px);
+  //Original value: padding: 0px 10px;
   border-bottom: 4px solid transparent;
   
   @include mq(small) {
@@ -35,8 +36,9 @@
 
 
   @include mq(large) {
-  font-size: em(18px);
-   padding: 0 15px;
+    font-size: em(18px);
+    @include padding-v-h(0px, 12px);
+   //--Original value: padding: 0 15px;
   }
 
 }
@@ -49,8 +51,8 @@
   color: palette(black);
   border-color: $color-primary;
   text-decoration: none;
-   background: #e6e6e6; /* Fallback */
-   background-color: rgba(230,230,230,0.50);
+  background: $color-nav-on-fb; /* Fallback */
+  background-color: $color-nav-on;
 }
 
 
@@ -75,10 +77,10 @@
   line-height: (36px/24px);
  
  
- @include mq(medium) {
-  font-size: em(28px);
-  line-height: (35px/28px);
- }
+  @include mq(medium) {
+    font-size: em(28px);
+    line-height: (35px/28px);
+  }
 
 }
 
@@ -142,12 +144,6 @@
 
 
 
-//%hdln-ter {
-//  @include font-s-w(18px, $font-weight--medium);
-//  @include margin-vertical(4px, 1px);
-// line-height: em(33px, 30px);
-//}
-
 
 
 
@@ -157,7 +153,8 @@
 %btn {
   @include font-s-w(14px, $font-weight--medium);
 
-  padding: 15px 30px;
+  @include padding-v-h(17px, 35px);
+  //--Original value: padding: 15px 30px;
   border: 0;
   border-radius : $br--default;
   color: $color-btntxt;

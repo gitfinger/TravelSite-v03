@@ -122,7 +122,6 @@
 
 
 // Vertical Margins
-//// Need to consolidate!!!
 
 @mixin margin-vertical($top, $bottom) {
     margin: {
@@ -133,6 +132,15 @@
 
 
 
+// Vertical Padding Vertical & Horizontal
+
+@mixin padding-v-h($vertical, $horizontal) {
+    padding: em($vertical) em($horizontal);
+}
+
+
+
+// Vertical Font Size & Weight pairs
 
 @mixin font-s-w($size, $weight) {
   font: {
@@ -185,6 +193,13 @@
 
 
 
+
+//Colour Palette boxout
+
+@mixin palette-color($bk, $txt) {
+  background-color: $bk;
+  color: $txt;
+}
   
 
 

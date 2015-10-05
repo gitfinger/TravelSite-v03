@@ -1,6 +1,6 @@
-// ==========================================================================
+// ======================================================================
 // Base Styles
-// ==========================================================================
+// ======================================================================
 
 
 
@@ -37,8 +37,8 @@ body {
 
 header {
 		position: relative;
-		background: #f5f5f5; /* Fallback */
-		background-color: rgba(255,255,255,0.90);
+		background: $color-menu-fb; /* Fallback */
+		background-color: $color-menu;
 		z-index: 0;
 		width: 100%;
 		@include shadow(0, 2px, 3px, $color-shadow);
@@ -87,18 +87,7 @@ h3 {
 }
 
 
-///h3 class - Put into a text include///
 
-.article-special01 {	
-		text-align: center;
-		@include margin-vertical(-3px, -3px);
-		@include text-colors($fountain-blue);
-	}
-
-.author {	
-		@include margin-vertical(5px, 0px);	
-	}
-///h3 - Put into a text include///
 
 
 
@@ -125,10 +114,7 @@ h5 {
 h6 {
 	@include font-s-w(18px, $font-weight--medium);
 	letter-spacing: $letter-space;
-
-	@include mq(medium) {
-		margin-top: em(4px);
-	}
+	@include margin-vertical(30px, 0px);
 }
 
  
@@ -168,20 +154,6 @@ p {
 	 }   
 }
 
-///p class - Put into a text include///
- .smallprint {
- 	@include font-s-w(10px, $font-weight--light);
- }  
-
- .summary {
- 	@include margin-vertical(0px, 40px);
- } 
-
- .citation {
- 	@include font-s-w(15px, $font-weight--light);
- }
-///p class - Put into a text include///
-
 
 
 
@@ -197,29 +169,6 @@ blockquote {
 	font-style : italic;
 	
 }
-
-
-
-// NEW CODE ---CHECK THIS IS DRY---
-
-
-
-
-
-
-.byline {
-	@extend %byline;
-	@extend %margin-vertical-10x10;
-
-	&-02 {
-		@extend %byline;
-		@include margin-vertical(10px, 15px);
-	}
-
-}
-
-
-
 
 
 
@@ -252,15 +201,6 @@ hr.list-divider {
 	}
 
 
-
-//hr.list-divider {
-//	@include margin-vertical(15px, 15px);
-//	@include mq(medium) {
-//		@include margin-vertical(30px, 30px);
-//	}
-//	
-//}
-// NEW CODE ---CHECK THIS IS DRY---
 
 
 

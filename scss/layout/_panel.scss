@@ -1,21 +1,23 @@
-// =======================================================================
+// ======================================================================
 // Panels
 // 
-//=========================================================================
-
-
-
-
+// ======================================================================
 
 
 
 
 
 .sharing {
-	margin-bottom: em(40px);
+    @include margin-vertical(20px, 10px);
+	//margin-bottom: em(40px);
 	float: right;
-	a {
-		border-bottom: none;
+	@extend .icon-link;
+
+	//a {
+	//	border-bottom: none;
+	//}
+	@include mq(medium) {
+		@include margin-vertical(30px, 30px);
 	}
 
 	&-header {
@@ -27,12 +29,6 @@
 		vertical-align: middle;
 	}
 }
-
-
-
-
-
-
 
 
 
@@ -102,129 +98,6 @@
 
 
 
-
-
-
-
-
-
-
-////TEST////
-
-
-
-.splash--test {
- 	padding-top: em(10px);
-  	@include mq(medium) {
-  	padding-top: em(100px);
-    } 
-
-    &-home {
-
-
-    	h1, h2 { 
-    	    color: $black;
-    	}
-
-	
-		@include mq(medium) {
-			@include bk-splash;
-		//	min-height:300px;
-  		//	height:auto !important;
-  		//	height:300px;
-		//	background: 0% 0% url(../img/header-01a.jpg) $color-primary;
-			background: url(../img/header-01a.jpg) $color-primary;
-
-        	padding-bottom: em(90px);
-        border: 1px solid #f00;
-		} 
-
-
-
-    }
-
-	&-landing {
-        @include margin-vertical(25px, 105px);
-        @include mq(medium) {
-            @include margin-vertical(120px, 0px);
-        } 
-    }
- 
-
- }
-
-
-
-////TEST////
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.list-panel {
-	font-size: $base__font-size - 2;
-	padding: 0 7px;
-}
-
-p.list-panel:last-child {
-	margin-bottom: 5px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-// ---Currently redundant, but retained in HTML---// 
-//--in case headers need specific styling.---//
-
-//.home-panel {	
-//	padding: 0px 0;
-//}
-
-// ---Currently redundant, but retained in HTML---// 
-//--in case headers need specific styling.---//
-
-
-
-
-
 .footer {
 	&-nav {
 		float:none;
@@ -249,6 +122,9 @@ p.list-panel:last-child {
 
 
 
+
+
+
 .sub {
 	&-nav {
 		float:right;
@@ -265,6 +141,10 @@ p.list-panel:last-child {
 	}
 
 }
+
+
+
+
 
 
 
@@ -296,45 +176,65 @@ p.list-panel:last-child {
 }
 
 
+
+
+
 	
 .boxout {
 		
-		background-color: #f0f0f0;
-		padding: em(25px);
-		margin: em(3px); 
-		margin-bottom: em(20px); 
-		font-weight: $font-weight--medium;
-		font-size: em(14px);
+	background-color: $color-boxout;
+	padding: em(25px);
+	margin: em(3px); 
+	margin-bottom: em(20px); 
+	font-weight: $font-weight--medium;
+	font-size: em(14px);
+	h4 {
+		font-size: em(18px);
+	}
+	@include mq(medium) {
+		font-size: em(18px);
 		h4 {
-			font-size: em(18px);
+			font-size: em(20px);
 		}
-		@include mq(medium) {
-			font-size: em(18px);
-			h4 {
-				font-size: em(20px);
-			}
-		}	    		
+	}	    		
 }
 
 
 
-.listpic {
-	float: left;
+///--Styleguide colour palette--///
 
-		@include mq(medium) {
-			float: none;
-			margin: auto;
-			width:100%
-			}
-
+.color-primary {
+	@include palette-color($fountain-blue, $white);
+	@extend %palette-spacing;
 }
-.listtext{
-	float: right;
 
-		@include mq(medium) {
-			float: none;
-			margin: auto;
-			width:100%
-			}
-
+.color-dark {
+	@include palette-color($color-dark, $white);
+	@extend %palette-spacing;
 }
+
+.color-secondary {
+	@include palette-color($color-secondary, $black);
+	@extend %palette-spacing;
+}
+
+.color-06 {
+	@include palette-color($color-06, $black);
+	@extend %palette-spacing;
+}
+
+.color-07 {
+	@include palette-color($color-07, $black);
+	@extend %palette-spacing;
+}
+
+.color-08 {
+	@include palette-color($color-08, $black);
+	@extend %palette-spacing;
+}
+
+
+
+///--Styleguide colour palette--///
+
+

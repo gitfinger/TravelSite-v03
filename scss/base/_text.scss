@@ -1,0 +1,66 @@
+// =======================================================================
+// Text Modifiers
+// =======================================================================
+
+
+
+
+///h3 class elements///
+
+.article-special {	
+		
+		@include margin-vertical(-3px, -3px);
+		@include text-colors($fountain-blue);
+
+		&02 {
+			@extend	.article-special;
+			text-align: center;
+			
+		}
+	}
+
+///h3 class elements///
+
+
+
+.author {	
+		@include margin-vertical(5px, 0px);	
+	}
+///h3 - class elements///
+
+
+
+
+
+///p class elements///
+ .smallprint {
+ 	@include font-s-w(10px, $font-weight--light);
+ }  
+
+ .summary {
+ 	@include margin-vertical(0px, 40px);
+ } 
+
+ .citation {
+ 	@include font-s-w(15px, $font-weight--light);
+ }
+///p class elements///
+
+
+
+
+
+
+
+
+.byline {
+	@extend %byline;
+	@extend %margin-vertical-10x10;
+
+	&-02 {
+		@extend %byline;
+		@include margin-vertical(10px, 15px);
+	}
+
+}
+

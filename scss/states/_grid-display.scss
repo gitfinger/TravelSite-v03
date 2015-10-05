@@ -25,9 +25,7 @@
   @include mq(medium) { 
     display: block;
   } 
-//   @include mq(large) { 
-//    display: none;
-//  } 
+
 }
 
 
@@ -47,10 +45,6 @@
 
 
 
-
-
-
-// NEW CODE ---CHECK THIS IS DRY---
 .is-large-only {
   text-align: center;
   display: none;
@@ -60,8 +54,6 @@
       float: right;
     }
 }
-
-// NEW CODE ---CHECK THIS IS DRY---
 
 
 

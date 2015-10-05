@@ -1,6 +1,6 @@
-// ==========================================================================
+// ======================================================================
 // Form Elements
-// ==========================================================================
+// ======================================================================
 
 .form {
 	@include e(label) {
@@ -66,41 +66,51 @@ border-radius: none;
 
 
 
-//.search {
-//	background: $color-light url(../img/icon-search.png) left no-repeat;
-//   padding-left: 50px;
-//} 
-
-
-.testcontainer {
-	width: 100%;
-   height: auto;
-   overflow: hidden;
-}
-
-
-.test01 {
-	float: none; 
-    width: auto;
-    overflow: hidden;
-}
-
-.test02 {
-	width: em(60px);
-	float: right;
-}
 
 
 .search {
 
    display:inline-block;
-   margin-right:5px;
-}
-.search-button {
-	float: left;
-	margin: em(0px);
+   margin-right: em(5px);
+
+
+	&-container {
+		width: 100%;
+		height: auto;
+		overflow: hidden;
+	}
+
+	&-bar {
+		float: right;
+	}
+
+
+	&-button {
+		float: left;
+		margin: em(0px);
+
+	}
+
+
+
+
+	&-01 {
+		float: none; 
+	    width: auto;
+	    overflow: hidden;
+	}
+
+
+	&-02 {
+		@extend .search-bar;
+		width: em(60px);
+	}
+
+
+
 
 }
-.search-bar {
-	float: right;
-}
+
+
+
+

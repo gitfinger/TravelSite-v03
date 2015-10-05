@@ -9,47 +9,56 @@
 	}
 
 	@include m(article) {
-		
-		margin-top: em(5px);
-		margin-bottom: em(5px);
+		@include margin-vertical(5px, 5px);
 
 		@include mq(medium) {
-			margin-top: em(20px);
-			margin-bottom: em(30px);
+			@include margin-vertical(20px, 30px);
+			
 			width: 100%;
-//max-width: 100%;
-//max-height: 100%
+
 		}
 		
 	}
 	@include m(summary) {
-		margin-top: em(10px);
-		margin-bottom: em(0px);
-		
+		@include margin-vertical(10px, 0px);
+
 		@include mq(medium) {
-			margin-top: em(10px);
-			margin-bottom: em(10px);
+			@include margin-vertical(10px, 10px);
+
+		
 		}
 	}
 	@include m(header) {
-			margin-top: em(5px);
-			margin-bottom: em(5px);
+			@include margin-vertical(5px, 5px);
 
 		@include mq(medium) {
-			margin-top: em(10px);
-			margin-bottom: em(10px);
+			@include margin-vertical(10px, 10px);
+
 		}
 	}
 
 	@include m(profilepic) {
-			margin-top: em(15px);
-			margin-bottom: em(20px);
+			@include margin-vertical(15px, 20px);
 			text-align: center;
 
 		@include mq(medium) {
-			margin-top: em(20px);
-			margin-bottom: em(40px);
+			@include margin-vertical(20px, 40px);
+
 		}
 	}
 }
+
+
+
+///REMOVE LINK UNDERLINE FROM IMAGE BASED LINKS///
+.icon-link {
+	a {
+		border-bottom: none;
+	}
+}	
+
+
+
+
+
 
